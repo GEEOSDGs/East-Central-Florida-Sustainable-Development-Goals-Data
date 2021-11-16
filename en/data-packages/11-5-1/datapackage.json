@@ -11,13 +11,25 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Deaths",
+                "Injuries"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]

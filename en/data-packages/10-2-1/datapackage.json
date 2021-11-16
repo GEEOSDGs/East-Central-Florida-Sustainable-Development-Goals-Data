@@ -11,13 +11,39 @@
       "schema": {
         "fields": [
           {
+            "name": "Earning Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "$25,000 - $50,000",
+                "$50,000 - $75,000",
+                "less than $25,000",
+                "over $75,000"
+              ]
+            },
+            "title": "Earning Group"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

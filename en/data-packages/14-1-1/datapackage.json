@@ -11,13 +11,37 @@
       "schema": {
         "fields": [
           {
+            "name": "Season",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Annual Wet",
+                "Summer Dry"
+              ]
+            },
+            "title": "Season"
+          },
+          {
+            "name": "Station",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Cabrillo Beach (Oceanside)",
+                "Venice City Beach (Rose Ave.)"
+              ]
+            },
+            "title": "Station"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

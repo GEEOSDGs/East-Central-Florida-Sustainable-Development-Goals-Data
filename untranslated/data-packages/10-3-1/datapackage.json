@@ -12,7 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Latino",
+                "White",
+                "African American",
+                "Asian",
+                "Other",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worse than Other Races",
+                "Same as Other Races",
+                "Better than Other Races",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -11,13 +11,78 @@
       "schema": {
         "fields": [
           {
+            "name": "Bus and Rail Ridership (County of LA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bus (LA County)",
+                "Rail (LA County)"
+              ]
+            },
+            "title": "Bus and Rail Ridership (County of LA)"
+          },
+          {
+            "name": "LA City",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "LA City"
+              ]
+            },
+            "title": "LA City"
+          },
+          {
+            "name": "LA County",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "LA County"
+              ]
+            },
+            "title": "LA County"
+          },
+          {
+            "name": "Method of Travel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bicycle",
+                "Carpooled",
+                "Drove Alone",
+                "Motorcycle",
+                "Other",
+                "Public Transit",
+                "Taxi",
+                "Walked",
+                "Worked At Home"
+              ]
+            },
+            "title": "Method of Travel"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number (Passenger Boardings)",
+                "Percentage (%)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

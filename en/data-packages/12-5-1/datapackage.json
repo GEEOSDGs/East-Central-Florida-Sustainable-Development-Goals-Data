@@ -11,13 +11,25 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Recycling rate",
+                "Recycling tonnage"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

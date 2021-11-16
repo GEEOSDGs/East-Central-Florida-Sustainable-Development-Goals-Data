@@ -11,13 +11,40 @@
       "schema": {
         "fields": [
           {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, Forestery, and Other Land Use",
+                "Stationary",
+                "Transportation",
+                "Waste"
+              ]
+            },
+            "title": "Sector"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "total emissions by sector (metric tons of CO2eq)",
+                "total emissions per GDP (metric tons per millions of current dollars)",
+                "total emissions per capita (metric tons per capita)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

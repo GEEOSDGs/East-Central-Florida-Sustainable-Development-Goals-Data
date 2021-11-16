@@ -381,6 +381,42 @@
       "title": "Cobertura de los servicios de salud esenciales"
     },
     {
+      "path": "12-a-1/data.csv",
+      "name": "12-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Capacidad instalada de generación de energía renovable en los países en desarrollo (expresada en vatios per cápita)"
+    },
+    {
       "path": "3-2-2/data.csv",
       "name": "3-2-2",
       "profile": "tabular-data-resource",
@@ -491,6 +527,42 @@
         ]
       },
       "title": "Índice de finalización (enseñanza primaria, primer ciclo de enseñanza secundaria y segundo ciclo de enseñanza secundaria)"
+    },
+    {
+      "path": "14-a-1/data.csv",
+      "name": "14-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina"
     },
     {
       "path": "9-5-1/data.csv",
@@ -689,6 +761,68 @@
       "title": "Proporción de la población que utiliza servicios de suministro de agua potable gestionados sin riesgos"
     },
     {
+      "path": "10-c-1/data.csv",
+      "name": "10-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Grade"
+          },
+          {
+            "name": "Planet",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                ""
+              ]
+            },
+            "title": "Planet"
+          },
+          {
+            "name": "Fruit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Apples",
+                "Oranges",
+                "Lemons",
+                ""
+              ]
+            },
+            "title": "Fruit"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Costo de las remesas en proporción a las sumas remitidas"
+    },
+    {
       "path": "3-d-2/data.csv",
       "name": "3-d-2",
       "profile": "tabular-data-resource",
@@ -751,6 +885,30 @@
       "title": "Porcentaje de infecciones del torrente sanguíneo debidas a determinados organismos resistentes a los antimicrobianos seleccionados"
     },
     {
+      "path": "10-4-2/data.csv",
+      "name": "10-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Efecto redistributivo de la política fiscal"
+    },
+    {
       "path": "4-5-1/data.csv",
       "name": "4-5-1",
       "profile": "tabular-data-resource",
@@ -787,6 +945,42 @@
       "title": "Índices de paridad (entre mujeres y hombres, zonas rurales y urbanas, quintiles de riqueza superior e inferior y grupos como los discapacitados, los pueblos indígenas y los afectados por los conflictos, a medida que se disponga de datos) para todos los indicadores educativos de esta lista que puedan desglosarse"
     },
     {
+      "path": "10-7-3/data.csv",
+      "name": "10-7-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de personas que murieron o desaparecieron en el proceso de migración hacia un destino internacional"
+    },
+    {
       "path": "8-8-2/data.csv",
       "name": "8-8-2",
       "profile": "tabular-data-resource",
@@ -821,6 +1015,42 @@
         ]
       },
       "title": "Nivel de cumplimiento nacional de los derechos laborales (libertad de asociación y negociación colectiva) con arreglo a las fuentes textuales de la Organización Internacional del Trabajo (OIT) y la legislación interna, desglosado por sexo y estatus migratorio"
+    },
+    {
+      "path": "12-4-1/data.csv",
+      "name": "12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de partes en los acuerdos ambientales multilaterales internacionales sobre desechos peligrosos y otros productos químicos que cumplen sus compromisos y obligaciones de transmitir información como se exige en cada uno de esos acuerdos"
     },
     {
       "path": "5-5-2/data.csv",
@@ -989,6 +1219,42 @@
       "title": "Proporción de la superficie de cuencas transfronterizas sujetas a arreglos operacionales para la cooperación en materia de aguas"
     },
     {
+      "path": "10-7-1/data.csv",
+      "name": "10-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Costo de la contratación sufragado por el empleado en proporción a los ingresos mensuales percibidos en el país de destino"
+    },
+    {
       "path": "4-a-2/data.csv",
       "name": "4-a-2",
       "profile": "tabular-data-resource",
@@ -1059,6 +1325,78 @@
         ]
       },
       "title": "Corrientes financieras internacionales hacia los países en desarrollo para apoyar la investigación y el desarrollo de energías limpias y la producción de energía renovable, incluidos los sistemas híbridos"
+    },
+    {
+      "path": "10-7-2/data.csv",
+      "name": "10-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que han aplicado políticas migratorias bien gestionadas que facilitan la migración y la movilidad ordenadas, seguras, regulares y responsables de las personas"
+    },
+    {
+      "path": "12-c-1/data.csv",
+      "name": "12-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Cantidad de subsidios a los combustibles fósiles por unidad de PIB (producción y consumo)"
     },
     {
       "path": "9-4-1/data.csv",
@@ -1355,6 +1693,42 @@
       "title": "Volumen de la asistencia oficial para el desarrollo destinada a becas, desglosado por sector y tipo de estudio"
     },
     {
+      "path": "12-3-1/data.csv",
+      "name": "12-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "a) Índice de pérdidas de alimentos y b) índice de desperdicio de alimentos"
+    },
+    {
       "path": "3-b-3/data.csv",
       "name": "3-b-3",
       "profile": "tabular-data-resource",
@@ -1377,6 +1751,42 @@
         ]
       },
       "title": "Proporción de centros de salud que disponen de un conjunto básico de medicamentos esenciales asequibles de manera sostenible"
+    },
+    {
+      "path": "10-x-1/data.csv",
+      "name": "10-x-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-x-1"
     },
     {
       "path": "2-3-1/data.csv",
@@ -1415,6 +1825,79 @@
       "title": "Volumen de producción por unidad de trabajo desglosado por tamaño y tipo de explotación (agropecuaria/ganadera/forestal)"
     },
     {
+      "path": "13-1-2/data.csv",
+      "name": "13-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030"
+    },
+    {
+      "path": "14-7-1/data.csv",
+      "name": "14-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture, forestry, fishing and hunting as a proportion of total regional GDP",
+                "Commercial Landings Poundage (Pounds)",
+                "Commercial Landings Value (Dollars)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción del PIB correspondiente a la pesca sostenible en los pequeños Estados insulares en desarrollo, en los países menos adelantados y en todos los países"
+    },
+    {
       "path": "8-9-1/data.csv",
       "name": "8-9-1",
       "profile": "tabular-data-resource",
@@ -1451,6 +1934,93 @@
       "title": "PIB generado directamente por el turismo en proporción al PIB total y a la tasa de crecimiento"
     },
     {
+      "path": "13-2-2/data.csv",
+      "name": "13-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture, Forestery, and Other Land Use",
+                "Stationary",
+                "Transportation",
+                "Waste",
+                ""
+              ]
+            },
+            "title": "Sector"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total emissions by sector (metric tons of CO2eq)",
+                "total emissions per capita (metric tons per capita)",
+                "total emissions per GDP (metric tons per millions of current dollars)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Emisiones totales de gases de efecto invernadero por año"
+    },
+    {
+      "path": "12-2-1/data.csv",
+      "name": "12-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Huella material en términos absolutos, huella material per cápita y huella material por PIB"
+    },
+    {
       "path": "5-3-1/data.csv",
       "name": "5-3-1",
       "profile": "tabular-data-resource",
@@ -1485,6 +2055,54 @@
         ]
       },
       "title": "Proporción de mujeres de entre 20 y 24 años que estaban casadas o mantenían una unión estable antes de cumplir los 15 años y antes de cumplir los 18 años"
+    },
+    {
+      "path": "14-1-1/data.csv",
+      "name": "14-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Station",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Venice City Beach (Rose Ave.)",
+                "Cabrillo Beach (Oceanside)",
+                ""
+              ]
+            },
+            "title": "Station"
+          },
+          {
+            "name": "Season",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Summer Dry",
+                "Annual Wet",
+                ""
+              ]
+            },
+            "title": "Season"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "a) Índice de eutrofización costera; y b) densidad de detritos plásticos"
     },
     {
       "path": "8-4-1/data.csv",
@@ -1643,6 +2261,42 @@
       "title": "Prevalencia de la inseguridad alimentaria moderada o grave entre la población, según la escala de experiencia de inseguridad alimentaria"
     },
     {
+      "path": "10-4-1/data.csv",
+      "name": "10-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción del PIB generada por el trabajo"
+    },
+    {
       "path": "3-3-2/data.csv",
       "name": "3-3-2",
       "profile": "tabular-data-resource",
@@ -1718,6 +2372,42 @@
       "title": "Incidencia de la tuberculosis por cada 100.000 habitantes"
     },
     {
+      "path": "13-1-1/data.csv",
+      "name": "13-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deaths",
+                "Injuries",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas"
+    },
+    {
       "path": "2-3-2/data.csv",
       "name": "2-3-2",
       "profile": "tabular-data-resource",
@@ -1790,6 +2480,42 @@
       "title": "Total neto de asistencia oficial para el desarrollo destinado a los sectores de la investigación médica y la atención sanitaria básica"
     },
     {
+      "path": "11-b-1/data.csv",
+      "name": "11-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030"
+    },
+    {
       "path": "9-c-1/data.csv",
       "name": "9-c-1",
       "profile": "tabular-data-resource",
@@ -1853,6 +2579,58 @@
         ]
       },
       "title": "Proporción de la población con cobertura de red móvil, desglosada por tecnología"
+    },
+    {
+      "path": "10-3-1/data.csv",
+      "name": "10-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Latino",
+                "White",
+                "African American",
+                "Asian",
+                "Other",
+                ""
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Worse than Other Races",
+                "Same as Other Races",
+                "Better than Other Races",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos"
     },
     {
       "path": "3-4-4/data.csv",
@@ -1932,6 +2710,42 @@
       "title": "3-4-4"
     },
     {
+      "path": "14-3-1/data.csv",
+      "name": "14-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Acidez media del mar (pH) medida en un conjunto convenido de estaciones de muestreo representativas"
+    },
+    {
       "path": "9-a-1/data.csv",
       "name": "9-a-1",
       "profile": "tabular-data-resource",
@@ -2002,6 +2816,44 @@
         ]
       },
       "title": "Proporción de la población rural que vive a menos de 2 km de una carretera transitable todo el año"
+    },
+    {
+      "path": "11-6-1/data.csv",
+      "name": "11-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Solid Resource Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bulky",
+                "Recycling",
+                "Refuse",
+                "Yard Trimmings",
+                ""
+              ]
+            },
+            "title": "Solid Resource Type"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de residuos sólidos municipales recogidos y administrados en instalaciones controladas con respecto al total de residuos municipales generados, desglosada por ciudad"
     },
     {
       "path": "2-2-3/data.csv",
@@ -2204,6 +3056,102 @@
       "title": "a) Proporción del total de la población agrícola con derechos de propiedad o derechos seguros sobre tierras agrícolas, desglosada por sexo; y b) proporción de mujeres entre los propietarios o los titulares de derechos sobre tierras agrícolas, desglosada por tipo de tenencia"
     },
     {
+      "path": "11-6-2/data.csv",
+      "name": "11-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fine Particulates PM2.5",
+                "Suspended Particulates PM10",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Niveles medios anuales de partículas finas en suspensión (por ejemplo, PM2.5 y PM10) en las ciudades (ponderados según la población)"
+    },
+    {
+      "path": "11-3-1/data.csv",
+      "name": "11-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población"
+    },
+    {
+      "path": "11-5-2/data.csv",
+      "name": "11-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Pérdidas económicas directas en relación con el PIB mundial, daños en la infraestructura esencial y número de interrupciones de los servicios básicos atribuidos a desastres"
+    },
+    {
       "path": "4-2-1/data.csv",
       "name": "4-2-1",
       "profile": "tabular-data-resource",
@@ -2361,6 +3309,78 @@
         ]
       },
       "title": "Volumen de la asistencia oficial para el desarrollo destinada al agua y el saneamiento que forma parte de un plan de gastos coordinados por el gobierno"
+    },
+    {
+      "path": "13-b-1/data.csv",
+      "name": "13-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países menos adelantados y pequeños Estados insulares en desarrollo con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes, estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales"
+    },
+    {
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Deaths",
+                "Injuries",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas"
     },
     {
       "path": "6-4-1/data.csv",
@@ -2694,6 +3714,42 @@
       "title": "Prevalencia de la subalimentación"
     },
     {
+      "path": "12-4-2/data.csv",
+      "name": "12-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "a) Desechos peligrosos generados per cápita y b) proporción de desechos peligrosos tratados, desglosados por tipo de tratamiento"
+    },
+    {
       "path": "3-a-1/data.csv",
       "name": "3-a-1",
       "profile": "tabular-data-resource",
@@ -2823,6 +3879,42 @@
         ]
       },
       "title": "Prevalencia del retraso del crecimiento (estatura para la edad, desviación típica < -2 de la mediana de los patrones de crecimiento infantil de la Organización Mundial de la Salud (OMS)) entre los niños menores de 5 años"
+    },
+    {
+      "path": "11-b-2/data.csv",
+      "name": "11-b-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres"
     },
     {
       "path": "1-5-4/data.csv",
@@ -3097,6 +4189,66 @@
         ]
       },
       "title": "Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), desglosada por sexo"
+    },
+    {
+      "path": "10-x-2/data.csv",
+      "name": "10-x-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-x-2"
+    },
+    {
+      "path": "11-a-1/data.csv",
+      "name": "11-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que cuentan con políticas urbanas nacionales o planes de desarrollo regionales que a) responden a la dinámica de la población, b) garantizan un desarrollo territorial equilibrado y c) aumentan el margen fiscal local"
     },
     {
       "path": "9-5-2/data.csv",
@@ -3418,6 +4570,78 @@
       "title": "Proporción de la población en un grupo de edad determinado que ha alcanzado al menos un nivel fijo de competencia funcional en a) alfabetización y b) nociones elementales de aritmética, desglosada por sexo"
     },
     {
+      "path": "14-c-1/data.csv",
+      "name": "14-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que, mediante marcos jurídicos, normativos e institucionales, avanzan en la ratificación, la aceptación y la implementación de los instrumentos relacionados con los océanos que aplican el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar para la conservación y el uso sostenible de los océanos y sus recursos"
+    },
+    {
+      "path": "11-4-1/data.csv",
+      "name": "11-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural y natural, desglosado por fuente de financiación (pública y privada), tipo de patrimonio (cultural y natural) y nivel de gobierno (nacional, regional y local/municipal)"
+    },
+    {
       "path": "9-2-2/data.csv",
       "name": "9-2-2",
       "profile": "tabular-data-resource",
@@ -3452,6 +4676,42 @@
         ]
       },
       "title": "Empleo del sector manufacturero en proporción al empleo total"
+    },
+    {
+      "path": "10-7-4/data.csv",
+      "name": "10-7-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población integrada por refugiados, desglosada por país de origen"
     },
     {
       "path": "3-1-1/data.csv",
@@ -3526,6 +4786,42 @@
         ]
       },
       "title": "Incidencia de la hepatitis B por cada 100.000 habitantes"
+    },
+    {
+      "path": "13-2-1/data.csv",
+      "name": "13-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes y estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales"
     },
     {
       "path": "4-4-1/data.csv",
@@ -3661,6 +4957,42 @@
         ]
       },
       "title": "Nivel de estrés hídrico: extracción de agua dulce en proporción a los recursos de agua dulce disponibles"
+    },
+    {
+      "path": "12-7-1/data.csv",
+      "name": "12-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Grado de aplicación de políticas y planes de acción sostenibles en materia de adquisiciones públicas"
     },
     {
       "path": "8-5-2/data.csv",
@@ -4065,6 +5397,68 @@
       "title": "Proporción de los flujos de aguas residuales domésticas e industriales tratados de manera adecuada"
     },
     {
+      "path": "11-7-2/data.csv",
+      "name": "11-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "White",
+                "Black or African American",
+                "Hispanic",
+                ""
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Total by Gender",
+                "Total by Race/ Ethnicity",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de personas que han sido víctimas de acoso físico o sexual en los últimos 12 meses, desglosada por sexo, edad, grado de discapacidad y lugar del hecho"
+    },
+    {
       "path": "5-x-1/data.csv",
       "name": "5-x-1",
       "profile": "tabular-data-resource",
@@ -4137,6 +5531,42 @@
       "title": "Densidad y distribución del personal sanitario"
     },
     {
+      "path": "12-6-1/data.csv",
+      "name": "12-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de empresas que publican informes sobre sostenibilidad"
+    },
+    {
       "path": "1-5-3/data.csv",
       "name": "1-5-3",
       "profile": "tabular-data-resource",
@@ -4195,6 +5625,147 @@
         ]
       },
       "title": "Proporción de países cuyo ordenamiento jurídico (incluido el derecho consuetudinario) garantiza la igualdad de derechos de la mujer a la propiedad o el control de las tierras"
+    },
+    {
+      "path": "11-1-1/data.csv",
+      "name": "11-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Sheltered/Unsheltered",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "sheltered",
+                "unsheltered",
+                ""
+              ]
+            },
+            "title": "Sheltered/Unsheltered"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "male",
+                "female",
+                "transgender",
+                "gender non-conforming",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "American Indian/ Alaska Native",
+                "Asian",
+                "Black/ African American",
+                "Hispanic/ Latino",
+                "Native Hawaiian/ Other Pacific Islander",
+                "White",
+                "Multi-Racial/Other",
+                ""
+              ]
+            },
+            "title": "Race/Ethnicity"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "under 18",
+                "18-24",
+                "25-54",
+                "55-61",
+                "62 and over",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Sexual Orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "straight",
+                "gay or lesbian",
+                "bisexual",
+                "sexual orientation non-conforming",
+                ""
+              ]
+            },
+            "title": "Sexual Orientation"
+          },
+          {
+            "name": "Health/Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "substance use disorder",
+                "HIV/AIDS",
+                "serious mental illness",
+                "developmental disability",
+                "physical disability",
+                ""
+              ]
+            },
+            "title": "Health/Disability"
+          },
+          {
+            "name": "Domestic Violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Domestic/Intimate Partner Violence Experience",
+                "Homeless Due to Fleeing Domestic/Intimate Partner",
+                ""
+              ]
+            },
+            "title": "Domestic Violence"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent of Total Population",
+                "Total by Sheltered/Unsheltered",
+                "Total by Gender",
+                "Total by Race/ Ethnicity",
+                "Total by Age Group",
+                "Total by Sexual Orientation",
+                "Total by Health/ Disability",
+                "Total by DV/IPV",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas"
     },
     {
       "path": "8-6-1/data.csv",
@@ -4319,6 +5890,42 @@
       "title": "Prevalencia de la malnutrición (peso para la estatura, desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación y sobrepeso)"
     },
     {
+      "path": "14-4-1/data.csv",
+      "name": "14-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de poblaciones de peces cuyos niveles son biológicamente sostenibles"
+    },
+    {
       "path": "1-b-1/data.csv",
       "name": "1-b-1",
       "profile": "tabular-data-resource",
@@ -4425,6 +6032,78 @@
         ]
       },
       "title": "Proporción del total de la población adulta con derechos seguros de tenencia de la tierra: a) que posee documentación reconocida legalmente al respecto y b) considera seguros sus derechos, desglosada por sexo y tipo de tenencia"
+    },
+    {
+      "path": "10-6-1/data.csv",
+      "name": "10-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de miembros y derechos de voto de los países en desarrollo en organizaciones internacionales"
+    },
+    {
+      "path": "11-3-2/data.csv",
+      "name": "11-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente"
     },
     {
       "path": "4-a-1/data.csv",
@@ -4585,6 +6264,78 @@
       "title": "Tasa de mortalidad por suicidio"
     },
     {
+      "path": "12-b-1/data.csv",
+      "name": "12-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Aplicación de instrumentos normalizados de contabilidad para hacer un seguimiento de los aspectos económicos y ambientales de la sostenibilidad del turismo"
+    },
+    {
+      "path": "12-5-1/data.csv",
+      "name": "12-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recycling tonnage",
+                "Recycling rate",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Tasa nacional de reciclado, en toneladas de material reciclado"
+    },
+    {
       "path": "3-9-1/data.csv",
       "name": "3-9-1",
       "profile": "tabular-data-resource",
@@ -4732,6 +6483,42 @@
       "title": "Proporción de niñas y mujeres de entre 15 y 49 años que han sufrido mutilación o ablación genital femenina, desglosada por edad"
     },
     {
+      "path": "12-8-1/data.csv",
+      "name": "12-8-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, \nc) la formación del profesorado y d) la evaluación de los estudiantes"
+    },
+    {
       "path": "9-2-1/data.csv",
       "name": "9-2-1",
       "profile": "tabular-data-resource",
@@ -4792,6 +6579,92 @@
       "title": "Proporción de mujeres de entre 15 y 49 años que toman sus propias decisiones informadas sobre las relaciones sexuales, el uso de anticonceptivos y la atención de la salud reproductiva"
     },
     {
+      "path": "10-2-1/data.csv",
+      "name": "10-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Earning Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "less than $25,000",
+                "$25,000 - $50,000",
+                "$50,000 - $75,000",
+                "over $75,000",
+                ""
+              ]
+            },
+            "title": "Earning Group"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad"
+    },
+    {
+      "path": "14-b-1/data.csv",
+      "name": "14-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Grado de aplicación de un marco jurídico, reglamentario, normativo o institucional que reconozca y proteja los derechos de acceso para la pesca en pequeña escala"
+    },
+    {
       "path": "3-9-2/data.csv",
       "name": "3-9-2",
       "profile": "tabular-data-resource",
@@ -4826,6 +6699,78 @@
         ]
       },
       "title": "Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))"
+    },
+    {
+      "path": "11-7-1/data.csv",
+      "name": "11-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total park acres",
+                "Parkland as percent of city area (%)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos, desglosada por sexo, edad y personas con discapacidad"
+    },
+    {
+      "path": "13-3-1/data.csv",
+      "name": "13-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, \nc) la formación del profesorado y d) la evaluación de los estudiantes"
     },
     {
       "path": "6-3-2/data.csv",
@@ -4864,6 +6809,42 @@
       "title": "Proporción de masas de agua de buena calidad"
     },
     {
+      "path": "14-2-1/data.csv",
+      "name": "14-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que aplican enfoques basados en los ecosistemas para gestionar las zonas marinas"
+    },
+    {
       "path": "3-9-3/data.csv",
       "name": "3-9-3",
       "profile": "tabular-data-resource",
@@ -4898,6 +6879,181 @@
         ]
       },
       "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias"
+    },
+    {
+      "path": "11-2-1/data.csv",
+      "name": "11-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "LA City",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "LA City",
+                ""
+              ]
+            },
+            "title": "LA City"
+          },
+          {
+            "name": "LA County",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "LA County",
+                ""
+              ]
+            },
+            "title": "LA County"
+          },
+          {
+            "name": "Method of Travel",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Taxi",
+                "Motorcycle",
+                "Bicycle",
+                "Other",
+                "Walked",
+                "Worked At Home",
+                "Carpooled",
+                "Public Transit",
+                "Drove Alone",
+                ""
+              ]
+            },
+            "title": "Method of Travel"
+          },
+          {
+            "name": "Bus and Rail Ridership (County of LA)",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bus (LA County)",
+                "Rail (LA County)",
+                ""
+              ]
+            },
+            "title": "Bus and Rail Ridership (County of LA)"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage (%)",
+                "Number (Passenger Boardings)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad"
+    },
+    {
+      "path": "11-1-2/data.csv",
+      "name": "11-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Grade"
+          },
+          {
+            "name": "Planet",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mercury",
+                "Venus",
+                "Earth",
+                ""
+              ]
+            },
+            "title": "Planet"
+          },
+          {
+            "name": "Fruit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Apples",
+                "Oranges",
+                "Lemons",
+                ""
+              ]
+            },
+            "title": "Fruit"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "11-1-2"
+    },
+    {
+      "path": "10-x-3/data.csv",
+      "name": "10-x-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "10-x-3"
     },
     {
       "path": "4-3-1/data.csv",
@@ -5024,6 +7180,42 @@
       "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos"
     },
     {
+      "path": "10-1-1/data.csv",
+      "name": "10-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Tasas de crecimiento per cápita de los gastos o ingresos de los hogares del 40% más pobre de la población y la población total"
+    },
+    {
       "path": "1-2-2/data.csv",
       "name": "1-2-2",
       "profile": "tabular-data-resource",
@@ -5087,6 +7279,42 @@
         ]
       },
       "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales"
+    },
+    {
+      "path": "14-5-1/data.csv",
+      "name": "14-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Cobertura de las zonas protegidas en relación con las zonas marinas"
     },
     {
       "path": "1-a-2/data.csv",
@@ -5529,6 +7757,114 @@
       "title": "5-4-2"
     },
     {
+      "path": "13-1-3/data.csv",
+      "name": "13-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres"
+    },
+    {
+      "path": "12-2-2/data.csv",
+      "name": "12-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Consumo material interno en términos absolutos, consumo material interno per cápita y consumo material interno por PIB"
+    },
+    {
+      "path": "12-1-1/data.csv",
+      "name": "12-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles"
+    },
+    {
       "path": "16-a-1/data.csv",
       "name": "16-a-1",
       "profile": "tabular-data-resource",
@@ -5577,30 +7913,6 @@
       "title": "Valor en dólares de todos los recursos proporcionados para fortalecer la capacidad estadística de los países en desarrollo"
     },
     {
-      "path": "12-4-2/data.csv",
-      "name": "12-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "a) Desechos peligrosos generados per cápita y b) proporción de desechos peligrosos tratados, desglosados por tipo de tratamiento"
-    },
-    {
       "path": "15-8-1/data.csv",
       "name": "15-8-1",
       "profile": "tabular-data-resource",
@@ -5623,30 +7935,6 @@
         ]
       },
       "title": "Proporción de países que han aprobado la legislación nacional pertinente y han destinado recursos suficientes para la prevención o el control de las especies exóticas invasoras"
-    },
-    {
-      "path": "12-8-1/data.csv",
-      "name": "12-8-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, \nc) la formación del profesorado y d) la evaluación de los estudiantes"
     },
     {
       "path": "10-a-1/data.csv",
@@ -5793,30 +8081,6 @@
       "title": "Muertes relacionadas con conflictos por cada 100.000 habitantes, desglosadas por sexo, edad y causa"
     },
     {
-      "path": "13-1-3/data.csv",
-      "name": "13-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres"
-    },
-    {
       "path": "16-5-1/data.csv",
       "name": "16-5-1",
       "profile": "tabular-data-resource",
@@ -5887,30 +8151,6 @@
         ]
       },
       "title": "Número de casos verificados de asesinato, secuestro, desaparición forzada, detención arbitraria y tortura de periodistas, miembros asociados de los medios de comunicación, sindicalistas y defensores de los derechos humanos, en los últimos 12 meses"
-    },
-    {
-      "path": "11-6-2/data.csv",
-      "name": "11-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Niveles medios anuales de partículas finas en suspensión (por ejemplo, PM2.5 y PM10) en las ciudades (ponderados según la población)"
     },
     {
       "path": "17-11-1/data.csv",
@@ -5985,30 +8225,6 @@
       "title": "Proporción de tierras degradadas en comparación con la superficie total"
     },
     {
-      "path": "12-2-1/data.csv",
-      "name": "12-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Huella material en términos absolutos, huella material per cápita y huella material por PIB"
-    },
-    {
       "path": "17-18-2/data.csv",
       "name": "17-18-2",
       "profile": "tabular-data-resource",
@@ -6031,54 +8247,6 @@
         ]
       },
       "title": "Número de países cuya legislación nacional sobre estadísticas cumple los Principios Fundamentales de las Estadísticas Oficiales"
-    },
-    {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas"
-    },
-    {
-      "path": "12-b-1/data.csv",
-      "name": "12-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Aplicación de instrumentos normalizados de contabilidad para hacer un seguimiento de los aspectos económicos y ambientales de la sostenibilidad del turismo"
     },
     {
       "path": "16-5-2/data.csv",
@@ -6105,54 +8273,6 @@
       "title": "Proporción de negocios que han tenido al menos un contacto con un funcionario público y que han pagado un soborno a un funcionario público, o a los que un funcionario público les ha pedido un soborno, durante los últimos 12 meses"
     },
     {
-      "path": "13-2-2/data.csv",
-      "name": "13-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Emisiones totales de gases de efecto invernadero por año"
-    },
-    {
-      "path": "14-c-1/data.csv",
-      "name": "14-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que, mediante marcos jurídicos, normativos e institucionales, avanzan en la ratificación, la aceptación y la implementación de los instrumentos relacionados con los océanos que aplican el derecho internacional reflejado en la Convención de las Naciones Unidas sobre el Derecho del Mar para la conservación y el uso sostenible de los océanos y sus recursos"
-    },
-    {
       "path": "17-9-1/data.csv",
       "name": "17-9-1",
       "profile": "tabular-data-resource",
@@ -6177,30 +8297,6 @@
       "title": "Valor en dólares de la asistencia financiera y técnica (incluso mediante la cooperación Norte-Sur, Sur‐Sur y triangular) prometida a los países en desarrollo"
     },
     {
-      "path": "12-2-2/data.csv",
-      "name": "12-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Consumo material interno en términos absolutos, consumo material interno per cápita y consumo material interno por PIB"
-    },
-    {
       "path": "16-9-1/data.csv",
       "name": "16-9-1",
       "profile": "tabular-data-resource",
@@ -6223,30 +8319,6 @@
         ]
       },
       "title": "Proporción de niños menores de 5 años cuyo nacimiento se ha registrado ante una autoridad civil, desglosada por edad"
-    },
-    {
-      "path": "10-c-1/data.csv",
-      "name": "10-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Costo de las remesas en proporción a las sumas remitidas"
     },
     {
       "path": "16-3-2/data.csv",
@@ -6319,126 +8391,6 @@
         ]
       },
       "title": "Avances hacia la gestión forestal sostenible"
-    },
-    {
-      "path": "10-4-2/data.csv",
-      "name": "10-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Efecto redistributivo de la política fiscal"
-    },
-    {
-      "path": "11-1-1/data.csv",
-      "name": "11-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas"
-    },
-    {
-      "path": "10-4-1/data.csv",
-      "name": "10-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción del PIB generada por el trabajo"
-    },
-    {
-      "path": "10-6-1/data.csv",
-      "name": "10-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de miembros y derechos de voto de los países en desarrollo en organizaciones internacionales"
-    },
-    {
-      "path": "13-3-1/data.csv",
-      "name": "13-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Grado en que i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible se incorporan en a) las políticas nacionales de educación, b) los planes de estudio, \nc) la formación del profesorado y d) la evaluación de los estudiantes"
     },
     {
       "path": "17-18-3/data.csv",
@@ -6537,54 +8489,6 @@
       "title": "Proporción de países que a) han realizado al menos un censo de población y vivienda en los últimos diez años; y b) han registrado el 100% de los nacimientos y el 80% de las defunciones"
     },
     {
-      "path": "11-3-2/data.csv",
-      "name": "11-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de ciudades que cuentan con una estructura de participación directa de la sociedad civil en la planificación y la gestión urbanas y funcionan con regularidad y democráticamente"
-    },
-    {
-      "path": "10-7-1/data.csv",
-      "name": "10-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Costo de la contratación sufragado por el empleado en proporción a los ingresos mensuales percibidos en el país de destino"
-    },
-    {
       "path": "15-5-1/data.csv",
       "name": "15-5-1",
       "profile": "tabular-data-resource",
@@ -6607,54 +8511,6 @@
         ]
       },
       "title": "Índice de la Lista Roja"
-    },
-    {
-      "path": "10-1-1/data.csv",
-      "name": "10-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Tasas de crecimiento per cápita de los gastos o ingresos de los hogares del 40% más pobre de la población y la población total"
-    },
-    {
-      "path": "12-7-1/data.csv",
-      "name": "12-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Grado de aplicación de políticas y planes de acción sostenibles en materia de adquisiciones públicas"
     },
     {
       "path": "16-10-2/data.csv",
@@ -6705,30 +8561,6 @@
       "title": "Índice de cobertura verde de las montañas"
     },
     {
-      "path": "13-2-1/data.csv",
-      "name": "13-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes y estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales"
-    },
-    {
       "path": "16-7-2/data.csv",
       "name": "16-7-2",
       "profile": "tabular-data-resource",
@@ -6777,54 +8609,6 @@
       "title": "Tablero macroeconómico"
     },
     {
-      "path": "11-b-1/data.csv",
-      "name": "11-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030"
-    },
-    {
-      "path": "10-7-4/data.csv",
-      "name": "10-7-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población integrada por refugiados, desglosada por país de origen"
-    },
-    {
       "path": "16-3-1/data.csv",
       "name": "16-3-1",
       "profile": "tabular-data-resource",
@@ -6847,30 +8631,6 @@
         ]
       },
       "title": "Proporción de víctimas de violencia en los últimos 12 meses que han notificado su victimización a las autoridades competentes u otros mecanismos de resolución de conflictos reconocidos oficialmente"
-    },
-    {
-      "path": "12-c-1/data.csv",
-      "name": "12-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Cantidad de subsidios a los combustibles fósiles por unidad de PIB (producción y consumo)"
     },
     {
       "path": "15-9-1/data.csv",
@@ -6921,54 +8681,6 @@
       "title": "Gastos primarios del gobierno en proporción al presupuesto aprobado originalmente, desglosados por sector (o por códigos presupuestarios o elementos similares)"
     },
     {
-      "path": "12-5-1/data.csv",
-      "name": "12-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Tasa nacional de reciclado, en toneladas de material reciclado"
-    },
-    {
-      "path": "14-1-1/data.csv",
-      "name": "14-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "a) Índice de eutrofización costera; y b) densidad de detritos plásticos"
-    },
-    {
       "path": "10-5-1/data.csv",
       "name": "10-5-1",
       "profile": "tabular-data-resource",
@@ -6991,30 +8703,6 @@
         ]
       },
       "title": "Indicadores de solidez financiera"
-    },
-    {
-      "path": "14-7-1/data.csv",
-      "name": "14-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción del PIB correspondiente a la pesca sostenible en los pequeños Estados insulares en desarrollo, en los países menos adelantados y en todos los países"
     },
     {
       "path": "2-a-2/data.csv",
@@ -7065,78 +8753,6 @@
       "title": "Proporción de lugares importantes para la biodiversidad terrestre y del agua dulce incluidos en zonas protegidas, desglosada por tipo de ecosistema"
     },
     {
-      "path": "11-7-1/data.csv",
-      "name": "11-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción media de la superficie edificada de las ciudades que se dedica a espacios abiertos para uso público de todos, desglosada por sexo, edad y personas con discapacidad"
-    },
-    {
-      "path": "14-3-1/data.csv",
-      "name": "14-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Acidez media del mar (pH) medida en un conjunto convenido de estaciones de muestreo representativas"
-    },
-    {
-      "path": "11-4-1/data.csv",
-      "name": "11-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Total de gastos per cápita destinados a la preservación, protección y conservación de todo el patrimonio cultural y natural, desglosado por fuente de financiación (pública y privada), tipo de patrimonio (cultural y natural) y nivel de gobierno (nacional, regional y local/municipal)"
-    },
-    {
       "path": "16-2-2/data.csv",
       "name": "16-2-2",
       "profile": "tabular-data-resource",
@@ -7185,30 +8801,6 @@
       "title": "Número de víctimas de homicidios intencionales por cada 100.000 habitantes, desglosado por sexo y edad"
     },
     {
-      "path": "11-7-2/data.csv",
-      "name": "11-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de personas que han sido víctimas de acoso físico o sexual en los últimos 12 meses, desglosada por sexo, edad, grado de discapacidad y lugar del hecho"
-    },
-    {
       "path": "17-16-1/data.csv",
       "name": "17-16-1",
       "profile": "tabular-data-resource",
@@ -7233,30 +8825,6 @@
       "title": "Número de países que informan de sus progresos en los marcos de múltiples interesados para el seguimiento de la eficacia de las actividades de desarrollo que apoyan el logro de los Objetivos de Desarrollo Sostenible"
     },
     {
-      "path": "10-7-2/data.csv",
-      "name": "10-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que han aplicado políticas migratorias bien gestionadas que facilitan la migración y la movilidad ordenadas, seguras, regulares y responsables de las personas"
-    },
-    {
       "path": "17-14-1/data.csv",
       "name": "17-14-1",
       "profile": "tabular-data-resource",
@@ -7279,54 +8847,6 @@
         ]
       },
       "title": "Número de países que cuentan con mecanismos para mejorar la coherencia de las políticas de desarrollo sostenible"
-    },
-    {
-      "path": "12-4-1/data.csv",
-      "name": "12-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de partes en los acuerdos ambientales multilaterales internacionales sobre desechos peligrosos y otros productos químicos que cumplen sus compromisos y obligaciones de transmitir información como se exige en cada uno de esos acuerdos"
-    },
-    {
-      "path": "14-a-1/data.csv",
-      "name": "14-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción del presupuesto total de investigación asignada a la investigación en el campo de la tecnología marina"
     },
     {
       "path": "16-1-4/data.csv",
@@ -7375,30 +8895,6 @@
         ]
       },
       "title": "Proporción de mujeres y hombres jóvenes de entre 18 y 29 años que sufrieron violencia sexual antes de cumplir los 18 años"
-    },
-    {
-      "path": "11-3-1/data.csv",
-      "name": "11-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Relación entre la tasa de consumo de tierras y la tasa de crecimiento de la población"
     },
     {
       "path": "17-7-1/data.csv",
@@ -7473,30 +8969,6 @@
       "title": "Proporción de personas que utilizan Internet"
     },
     {
-      "path": "13-1-1/data.csv",
-      "name": "13-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 personas"
-    },
-    {
       "path": "8-a-1/data.csv",
       "name": "8-a-1",
       "profile": "tabular-data-resource",
@@ -7519,30 +8991,6 @@
         ]
       },
       "title": "Compromisos y desembolsos en relación con la iniciativa Ayuda para el Comercio"
-    },
-    {
-      "path": "12-1-1/data.csv",
-      "name": "12-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que elaboran, adoptan o aplican instrumentos de política destinados a apoyar la transición hacia modalidades de consumo y producción sostenibles"
     },
     {
       "path": "16-2-1/data.csv",
@@ -7641,30 +9089,6 @@
       "title": "Proporción de la población que se ha visto implicada en alguna controversia en los dos últimos años y ha accedido a algún mecanismo oficial u oficioso de solución de controversias, desglosada por tipo de mecanismo"
     },
     {
-      "path": "12-6-1/data.csv",
-      "name": "12-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de empresas que publican informes sobre sostenibilidad"
-    },
-    {
       "path": "16-4-1/data.csv",
       "name": "16-4-1",
       "profile": "tabular-data-resource",
@@ -7689,30 +9113,6 @@
       "title": "Valor total de las corrientes financieras ilícitas entrantes y salientes (en dólares corrientes de los Estados Unidos)"
     },
     {
-      "path": "10-3-1/data.csv",
-      "name": "10-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos"
-    },
-    {
       "path": "2-c-1/data.csv",
       "name": "2-c-1",
       "profile": "tabular-data-resource",
@@ -7735,30 +9135,6 @@
         ]
       },
       "title": "Indicador de anomalías en los precios de los alimentos"
-    },
-    {
-      "path": "11-6-1/data.csv",
-      "name": "11-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de residuos sólidos municipales recogidos y administrados en instalaciones controladas con respecto al total de residuos municipales generados, desglosada por ciudad"
     },
     {
       "path": "2-b-1/data.csv",
@@ -7809,30 +9185,6 @@
       "title": "Número de abonados a Internet de banda ancha fija por cada 100 habitantes, desglosado por velocidad"
     },
     {
-      "path": "11-a-1/data.csv",
-      "name": "11-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que cuentan con políticas urbanas nacionales o planes de desarrollo regionales que a) responden a la dinámica de la población, b) garantizan un desarrollo territorial equilibrado y c) aumentan el margen fiscal local"
-    },
-    {
       "path": "15-a-1/data.csv",
       "name": "15-a-1",
       "profile": "tabular-data-resource",
@@ -7855,78 +9207,6 @@
         ]
       },
       "title": "a) Asistencia oficial para el desarrollo destinada concretamente a la conservación y el uso sostenible de la biodiversidad y b) ingresos generados y financiación movilizada mediante instrumentos económicos pertinentes para la biodiversidad"
-    },
-    {
-      "path": "14-2-1/data.csv",
-      "name": "14-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que aplican enfoques basados en los ecosistemas para gestionar las zonas marinas"
-    },
-    {
-      "path": "10-2-1/data.csv",
-      "name": "10-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de personas que viven por debajo del 50% de la mediana de los ingresos, desglosada por sexo, edad y personas con discapacidad"
-    },
-    {
-      "path": "12-3-1/data.csv",
-      "name": "12-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "a) Índice de pérdidas de alimentos y b) índice de desperdicio de alimentos"
     },
     {
       "path": "15-7-1/data.csv",
@@ -8073,54 +9353,6 @@
       "title": "Grado de aplicación de instrumentos internacionales cuyo objetivo es combatir la pesca ilegal, no declarada y no reglamentada"
     },
     {
-      "path": "12-a-1/data.csv",
-      "name": "12-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Capacidad instalada de generación de energía renovable en los países en desarrollo (expresada en vatios per cápita)"
-    },
-    {
-      "path": "11-2-1/data.csv",
-      "name": "11-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que tiene fácil acceso al transporte público, desglosada por sexo, edad y personas con discapacidad"
-    },
-    {
       "path": "16-b-1/data.csv",
       "name": "16-b-1",
       "profile": "tabular-data-resource",
@@ -8145,54 +9377,6 @@
       "title": "Proporción de la población que declara haberse sentido personalmente discriminada o acosada en los últimos 12 meses por motivos de discriminación prohibidos por el derecho internacional de los derechos humanos"
     },
     {
-      "path": "14-4-1/data.csv",
-      "name": "14-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de poblaciones de peces cuyos niveles son biológicamente sostenibles"
-    },
-    {
-      "path": "10-7-3/data.csv",
-      "name": "10-7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de personas que murieron o desaparecieron en el proceso de migración hacia un destino internacional"
-    },
-    {
       "path": "17-1-1/data.csv",
       "name": "17-1-1",
       "profile": "tabular-data-resource",
@@ -8215,30 +9399,6 @@
         ]
       },
       "title": "Total de ingresos del gobierno en proporción al PIB, desglosado por fuente"
-    },
-    {
-      "path": "13-b-1/data.csv",
-      "name": "13-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países menos adelantados y pequeños Estados insulares en desarrollo con contribuciones determinadas a nivel nacional, estrategias a largo plazo y planes, estrategias nacionales de adaptación y estrategias indicadas en comunicaciones sobre la adaptación y comunicaciones nacionales"
     },
     {
       "path": "17-10-1/data.csv",
@@ -8289,30 +9449,6 @@
       "title": "Superficie forestal en proporción a la superficie total"
     },
     {
-      "path": "11-b-2/data.csv",
-      "name": "11-b-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres"
-    },
-    {
       "path": "2-a-1/data.csv",
       "name": "2-a-1",
       "profile": "tabular-data-resource",
@@ -8335,30 +9471,6 @@
         ]
       },
       "title": "Índice de orientación agrícola para el gasto público"
-    },
-    {
-      "path": "11-5-2/data.csv",
-      "name": "11-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Pérdidas económicas directas en relación con el PIB mundial, daños en la infraestructura esencial y número de interrupciones de los servicios básicos atribuidos a desastres"
     },
     {
       "path": "17-15-1/data.csv",
@@ -8433,30 +9545,6 @@
       "title": "a) Asistencia oficial para el desarrollo destinada concretamente a la conservación y el uso sostenible de la biodiversidad y b) ingresos generados y financiación movilizada mediante instrumentos económicos pertinentes para la biodiversidad"
     },
     {
-      "path": "14-b-1/data.csv",
-      "name": "14-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Grado de aplicación de un marco jurídico, reglamentario, normativo o institucional que reconozca y proteja los derechos de acceso para la pesca en pequeña escala"
-    },
-    {
       "path": "17-4-1/data.csv",
       "name": "17-4-1",
       "profile": "tabular-data-resource",
@@ -8503,30 +9591,6 @@
         ]
       },
       "title": "Proporciones de plazas en las instituciones nacionales y locales, entre ellas: a) las asambleas legislativas, b) la administración pública y c) el poder judicial, en comparación con la distribución nacional, desglosadas por sexo, edad, personas con discapacidad y grupos de población"
-    },
-    {
-      "path": "14-5-1/data.csv",
-      "name": "14-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Cobertura de las zonas protegidas en relación con las zonas marinas"
     },
     {
       "path": "2-5-1/data.csv",
@@ -8599,30 +9663,6 @@
         ]
       },
       "title": "Indicador de capacidad estadística para el seguimiento de los Objetivos de Desarrollo Sostenible"
-    },
-    {
-      "path": "13-1-2/data.csv",
-      "name": "13-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030"
     }
   ]
 }

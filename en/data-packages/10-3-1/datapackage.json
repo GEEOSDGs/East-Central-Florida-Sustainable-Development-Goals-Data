@@ -11,13 +11,41 @@
       "schema": {
         "fields": [
           {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "African American",
+                "Asian",
+                "Latino",
+                "Other",
+                "White"
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Better than Other Races",
+                "Same as Other Races",
+                "Worse than Other Races"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

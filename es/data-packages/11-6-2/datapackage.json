@@ -12,8 +12,20 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fine Particulates PM2.5",
+                "Suspended Particulates PM10",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

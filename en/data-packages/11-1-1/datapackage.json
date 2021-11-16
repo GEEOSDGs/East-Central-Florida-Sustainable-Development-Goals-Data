@@ -11,13 +11,130 @@
       "schema": {
         "fields": [
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "18-24",
+                "25-54",
+                "55-61",
+                "62 and over",
+                "under 18"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Domestic Violence",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Domestic/Intimate Partner Violence Experience",
+                "Homeless Due to Fleeing Domestic/Intimate Partner"
+              ]
+            },
+            "title": "Domestic Violence"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "female",
+                "gender non-conforming",
+                "male",
+                "transgender"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Health/Disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "HIV/AIDS",
+                "developmental disability",
+                "physical disability",
+                "serious mental illness",
+                "substance use disorder"
+              ]
+            },
+            "title": "Health/Disability"
+          },
+          {
+            "name": "Race/Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "American Indian/ Alaska Native",
+                "Asian",
+                "Black/ African American",
+                "Hispanic/ Latino",
+                "Multi-Racial/Other",
+                "Native Hawaiian/ Other Pacific Islander",
+                "White"
+              ]
+            },
+            "title": "Race/Ethnicity"
+          },
+          {
+            "name": "Sexual Orientation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "bisexual",
+                "gay or lesbian",
+                "sexual orientation non-conforming",
+                "straight"
+              ]
+            },
+            "title": "Sexual Orientation"
+          },
+          {
+            "name": "Sheltered/Unsheltered",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "sheltered",
+                "unsheltered"
+              ]
+            },
+            "title": "Sheltered/Unsheltered"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent of Total Population",
+                "Total by Age Group",
+                "Total by DV/IPV",
+                "Total by Gender",
+                "Total by Health/ Disability",
+                "Total by Race/ Ethnicity",
+                "Total by Sexual Orientation",
+                "Total by Sheltered/Unsheltered"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

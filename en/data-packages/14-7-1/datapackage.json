@@ -11,13 +11,26 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, forestry, fishing and hunting as a proportion of total regional GDP",
+                "Commercial Landings Poundage (Pounds)",
+                "Commercial Landings Value (Dollars)"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

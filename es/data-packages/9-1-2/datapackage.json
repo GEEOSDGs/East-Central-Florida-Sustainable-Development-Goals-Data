@@ -12,12 +12,49 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "LAX passengers and cargo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "LAX international passengers",
+                "LAX total air cargo (tons)",
+                ""
+              ]
+            },
+            "title": "LAX passengers and cargo"
+          },
+          {
+            "name": "POLA cargo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "POLA total imports",
+                "POLA total exports",
+                "POLA total TEUs",
+                ""
+              ]
+            },
+            "title": "POLA cargo"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Los Angeles International Airport",
+                "Port of Los Angeles",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

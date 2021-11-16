@@ -11,13 +11,36 @@
       "schema": {
         "fields": [
           {
+            "name": "Elected v. Commission",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Boards and Commissions",
+                "Elected"
+              ]
+            },
+            "title": "Elected v. Commission"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of women"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

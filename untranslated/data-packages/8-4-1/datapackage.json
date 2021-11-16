@@ -12,11 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Recyclables Collected",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Recyclables Collected",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Bulky Items Collected",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bulky Items Collected",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

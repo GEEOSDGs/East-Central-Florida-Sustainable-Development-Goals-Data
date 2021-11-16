@@ -11,13 +11,64 @@
       "schema": {
         "fields": [
           {
+            "name": "Disability Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "With any disability"
+              ]
+            },
+            "title": "Disability Status"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Black or African American",
+                "Hispanic or Latino",
+                "White"
+              ]
+            },
+            "title": "Race/Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent by Disability Status",
+                "Percent by Gender",
+                "Percent by Race/Ethnicity"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

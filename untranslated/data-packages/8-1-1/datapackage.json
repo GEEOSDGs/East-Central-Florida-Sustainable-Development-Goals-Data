@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per capita real GDP growth rate",
+                "GDP in millions of current dollars",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

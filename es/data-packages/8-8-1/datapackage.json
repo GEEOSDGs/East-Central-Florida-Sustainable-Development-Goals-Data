@@ -12,8 +12,43 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Injury Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fatal",
+                "Non-Fatal",
+                ""
+              ]
+            },
+            "title": "Injury Type"
+          },
+          {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Agriculture, Forestry, Fishing & Hunting",
+                "Construction",
+                "Manufacturing",
+                "Wholesale & Retail Trade",
+                "Transportation & Utilities",
+                "Finance, Insurance & Real Estate",
+                "Professional & Business Services",
+                "Education & Health Services",
+                "Leisure, Entertainment & Hospitality",
+                "Other Services (Except Public Administration)",
+                "Public Administration",
+                "Information",
+                "Mining, Quarrying, Oil & Gas Extraction",
+                ""
+              ]
+            },
+            "title": "Industry"
           },
           {
             "name": "Value",

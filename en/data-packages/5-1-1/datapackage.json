@@ -11,13 +11,87 @@
       "schema": {
         "fields": [
           {
+            "name": "City of LA Department",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Aging",
+                "Airports",
+                "Animal Services",
+                "Building and Safety",
+                "City Administrative Officer",
+                "City Attorney",
+                "City Clerk",
+                "City Employees Retirement System",
+                "City Ethics Commission",
+                "City Planning",
+                "Controller",
+                "Council",
+                "Cultural Affairs",
+                "Disability",
+                "Economic and Workforce Development Department",
+                "El Pueblo De Los Angeles Historical Monument Authority",
+                "Emergency Management",
+                "Employee Relations Board",
+                "Fire",
+                "General Services",
+                "Harbor",
+                "Housing and Community Investment Department",
+                "Information Technology Agency",
+                "Library",
+                "Los Angeles Department of Convention and Tourism Development",
+                "Mayor",
+                "Neighborhood Empowerment",
+                "Office of Finance",
+                "Pension",
+                "Personnel",
+                "Police",
+                "Public Works - Board of Public Works",
+                "Public Works - Contract Administration",
+                "Public Works - Engineering",
+                "Public Works - Sanitation",
+                "Public Works - Street Lighting",
+                "Public Works - Street Services",
+                "Recreation and Parks",
+                "Transportation",
+                "Zoo"
+              ]
+            },
+            "title": "City of LA Department"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "% of Male / Female Employees",
+                "% of Male / Female Payroll"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

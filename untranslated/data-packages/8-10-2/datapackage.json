@@ -12,7 +12,32 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Banking Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unbanked",
+                "Underbanked",
+                "Fully Banked",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Black",
+                "Hispanic",
+                "Asian",
+                "White",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

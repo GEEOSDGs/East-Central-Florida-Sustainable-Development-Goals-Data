@@ -11,13 +11,31 @@
       "schema": {
         "fields": [
           {
+            "name": "Fuel Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bottled Gas",
+                "Electricity",
+                "Fuel oil",
+                "No Fuel Used",
+                "Other",
+                "Solar",
+                "Utility Gas",
+                "Wood"
+              ]
+            },
+            "title": "Fuel Type"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

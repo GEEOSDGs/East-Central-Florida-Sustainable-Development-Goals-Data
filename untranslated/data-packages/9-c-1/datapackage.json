@@ -12,7 +12,45 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Under 18",
+                "18 to 64",
+                "65 and over",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "White",
+                "Black or African American",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Other",
+                "Hispanic",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent by age",
+                "Percent by race/ ethnicity",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

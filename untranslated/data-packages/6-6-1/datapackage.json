@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Permanent or Seasonal Water Bodies",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Permanent",
+                "Seasonal",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

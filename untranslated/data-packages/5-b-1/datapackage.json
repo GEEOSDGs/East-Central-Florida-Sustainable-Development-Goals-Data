@@ -12,7 +12,66 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Broadband Subcription",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "With an Internet subscription",
+                "Dial-up with no other type of Internet subscription",
+                "Broadband of any type",
+                "Cellular data plan",
+                "Cellular data plan with no other type of Internet subscription",
+                "Broadband such as cable, fiber optic or DSL",
+                "Satellite Internet service",
+                "Without an Internet subscription",
+                "Broadband subscription",
+                "No Internet subscription",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of Computer",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Has one or more types of computing devices",
+                "Desktop or laptop",
+                "Desktop or laptop with no other type of computing device",
+                "Smartphone",
+                "Smartphone with no other type of computing device",
+                "Tablet or other portable wireless computer",
+                "Tablet or other portable wireless computer with no other type of computing device",
+                "Other computer",
+                "Other computer with no other type of computing device",
+                "No computer",
+                "Has a computer",
+                "No computer in home",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Demographic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All Races",
+                "White alone",
+                "Black or African American alone",
+                "American Indian and Alaska Native alone",
+                "Asian alone",
+                "Native Hawaiian and Other Pacific Islander alone",
+                "Some other race alone",
+                "Two or more races",
+                "Hispanic or Latino origin (of any race)",
+                "White alone, not Hispanic or Latino",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

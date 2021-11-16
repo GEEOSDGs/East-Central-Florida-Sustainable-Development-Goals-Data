@@ -12,11 +12,67 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Type of Business",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All Privately-Held",
+                "Private Female-owned",
+                "Private Male-owned",
+                "Private Equally Female-Male Owned",
+                "Publicly-Held",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Businesses with or without Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of Businesses with or without Paid Employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Businesses with Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number  of Businesses with Paid Employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Number of Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of Paid Employees",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Annual Revenue ($M, businesses with paid employees)",
+                "Annual Payroll ($M)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

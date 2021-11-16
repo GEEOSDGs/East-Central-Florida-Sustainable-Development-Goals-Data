@@ -11,13 +11,54 @@
       "schema": {
         "fields": [
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "18 to 64",
+                "65 and over",
+                "Under 18"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Black or African American",
+                "Hispanic",
+                "Other",
+                "White"
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent by age",
+                "Percent by race/ ethnicity"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Waste",
+                "Transportation",
+                "Industrial",
+                "Buildings",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GHG efficiency (metric tons per million dollars)",
+                "GHG emissions by sector (million metric tons)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

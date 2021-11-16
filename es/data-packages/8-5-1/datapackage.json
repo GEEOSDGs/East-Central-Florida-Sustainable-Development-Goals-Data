@@ -12,12 +12,40 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "All",
+                "Management, business, science, and arts",
+                "Service",
+                "Sales and office",
+                "Natural resources, construction, and maintenance",
+                "Production, transportation, and material moving",
+                ""
+              ]
+            },
+            "title": "Occupation"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

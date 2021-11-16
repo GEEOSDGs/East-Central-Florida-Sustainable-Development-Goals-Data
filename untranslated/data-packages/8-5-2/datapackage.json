@@ -12,7 +12,54 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Race/Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "White",
+                "Black or African American",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Hispanic or Latino",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Disability Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "With any disability",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent by Race/Ethnicity",
+                "Percent by Gender",
+                "Percent by Disability Status",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

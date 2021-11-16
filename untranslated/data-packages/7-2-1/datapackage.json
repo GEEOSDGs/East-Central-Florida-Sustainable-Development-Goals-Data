@@ -12,11 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Energy Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Renewable",
+                "Coal",
+                "Large Hydroelectric",
+                "Natural Gas",
+                "Nuclear",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

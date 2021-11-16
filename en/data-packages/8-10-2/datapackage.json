@@ -11,13 +11,40 @@
       "schema": {
         "fields": [
           {
+            "name": "Banking Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Fully Banked",
+                "Unbanked",
+                "Underbanked"
+              ]
+            },
+            "title": "Banking Status"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Asian",
+                "Black",
+                "Hispanic",
+                "White"
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

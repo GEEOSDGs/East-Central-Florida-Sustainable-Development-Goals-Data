@@ -11,13 +11,35 @@
       "schema": {
         "fields": [
           {
+            "name": "Group A",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Group A"
+              ]
+            },
+            "title": "Group A"
+          },
+          {
+            "name": "Group B",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Group B"
+              ]
+            },
+            "title": "Group B"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -12,12 +12,27 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "By Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "L.A. aqueduct",
+                "purchased water - Bay Delta",
+                "purchased water - Colorado River",
+                "groundwater",
+                "recycled water",
+                ""
+              ]
+            },
+            "title": "By Source"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

@@ -11,13 +11,41 @@
       "schema": {
         "fields": [
           {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Occupation",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All",
+                "Management, business, science, and arts",
+                "Natural resources, construction, and maintenance",
+                "Production, transportation, and material moving",
+                "Sales and office",
+                "Service"
+              ]
+            },
+            "title": "Occupation"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

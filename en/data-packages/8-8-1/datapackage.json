@@ -11,13 +11,48 @@
       "schema": {
         "fields": [
           {
+            "name": "Industry",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, Forestry, Fishing & Hunting",
+                "Construction",
+                "Education & Health Services",
+                "Finance, Insurance & Real Estate",
+                "Information",
+                "Leisure, Entertainment & Hospitality",
+                "Manufacturing",
+                "Mining, Quarrying, Oil & Gas Extraction",
+                "Other Services (Except Public Administration)",
+                "Professional & Business Services",
+                "Public Administration",
+                "Transportation & Utilities",
+                "Wholesale & Retail Trade"
+              ]
+            },
+            "title": "Industry"
+          },
+          {
+            "name": "Injury Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Fatal",
+                "Non-Fatal"
+              ]
+            },
+            "title": "Injury Type"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

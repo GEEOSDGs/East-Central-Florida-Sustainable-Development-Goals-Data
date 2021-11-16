@@ -12,8 +12,26 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Fuel Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Utility Gas",
+                "Bottled Gas",
+                "Electricity",
+                "Fuel oil",
+                "Wood",
+                "Solar",
+                "Other",
+                "No Fuel Used",
+                ""
+              ]
+            },
+            "title": "Fuel Type"
           },
           {
             "name": "Value",

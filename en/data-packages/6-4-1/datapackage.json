@@ -11,13 +11,37 @@
       "schema": {
         "fields": [
           {
+            "name": "Sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "commercial/ industrial/ institutional",
+                "residential"
+              ]
+            },
+            "title": "Sector"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "average daily use per capita (gallons)",
+                "million GPD by sector"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -11,13 +11,74 @@
       "schema": {
         "fields": [
           {
+            "name": "Businesses with Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number  of Businesses with Paid Employees"
+              ]
+            },
+            "title": "Businesses with Paid Employees"
+          },
+          {
+            "name": "Businesses with or without Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of Businesses with or without Paid Employees"
+              ]
+            },
+            "title": "Businesses with or without Paid Employees"
+          },
+          {
+            "name": "Number of Paid Employees",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of Paid Employees"
+              ]
+            },
+            "title": "Number of Paid Employees"
+          },
+          {
+            "name": "Type of Business",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All Privately-Held",
+                "Private Equally Female-Male Owned",
+                "Private Female-owned",
+                "Private Male-owned",
+                "Publicly-Held"
+              ]
+            },
+            "title": "Type of Business"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Annual Payroll ($M)",
+                "Annual Revenue ($M, businesses with paid employees)",
+                "Number"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

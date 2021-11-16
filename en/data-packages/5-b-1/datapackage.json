@@ -11,13 +11,75 @@
       "schema": {
         "fields": [
           {
+            "name": "Broadband Subcription",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Broadband of any type",
+                "Broadband subscription",
+                "Broadband such as cable, fiber optic or DSL",
+                "Cellular data plan",
+                "Cellular data plan with no other type of Internet subscription",
+                "Dial-up with no other type of Internet subscription",
+                "No Internet subscription",
+                "Satellite Internet service",
+                "With an Internet subscription",
+                "Without an Internet subscription"
+              ]
+            },
+            "title": "Broadband Subcription"
+          },
+          {
+            "name": "Demographic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "All Races",
+                "American Indian and Alaska Native alone",
+                "Asian alone",
+                "Black or African American alone",
+                "Hispanic or Latino origin (of any race)",
+                "Native Hawaiian and Other Pacific Islander alone",
+                "Some other race alone",
+                "Two or more races",
+                "White alone",
+                "White alone, not Hispanic or Latino"
+              ]
+            },
+            "title": "Demographic"
+          },
+          {
+            "name": "Type of Computer",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Desktop or laptop",
+                "Desktop or laptop with no other type of computing device",
+                "Has a computer",
+                "Has one or more types of computing devices",
+                "No computer",
+                "No computer in home",
+                "Other computer",
+                "Other computer with no other type of computing device",
+                "Smartphone",
+                "Smartphone with no other type of computing device",
+                "Tablet or other portable wireless computer",
+                "Tablet or other portable wireless computer with no other type of computing device"
+              ]
+            },
+            "title": "Type of Computer"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]

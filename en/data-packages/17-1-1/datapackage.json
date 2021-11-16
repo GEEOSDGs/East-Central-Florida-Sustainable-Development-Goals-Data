@@ -11,13 +11,30 @@
       "schema": {
         "fields": [
           {
+            "name": "Revenue Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Business Tax",
+                "Licenses Permits Fees and Fines",
+                "Other",
+                "Property Tax",
+                "Sales Tax",
+                "Sewer Construction and Maintenance Fund",
+                "Utility Users Tax"
+              ]
+            },
+            "title": "Revenue Source"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "string",
             "title": "Year"
           }
         ]

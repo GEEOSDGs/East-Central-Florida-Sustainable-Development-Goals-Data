@@ -12,11 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Crime Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Human trafficking - commercial sex acts",
+                "Human trafficking - involuntary serviture",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Age Range",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Under 15",
+                "15 and over",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

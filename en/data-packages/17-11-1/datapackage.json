@@ -11,13 +11,39 @@
       "schema": {
         "fields": [
           {
+            "name": "Country Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "LDC",
+                "developed",
+                "developing",
+                "transition"
+              ]
+            },
+            "title": "Country Group"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Exports",
+                "Imports"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

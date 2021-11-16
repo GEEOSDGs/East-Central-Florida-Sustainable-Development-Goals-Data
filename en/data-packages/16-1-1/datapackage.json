@@ -11,13 +11,42 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Homicides by victim descent",
+                "Homicides by victim gender"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
+            "name": "Victim Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Asian",
+                "Black",
+                "Female",
+                "Hispanic",
+                "Male",
+                "Other",
+                "White"
+              ]
+            },
+            "title": "Victim Gender"
+          },
+          {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

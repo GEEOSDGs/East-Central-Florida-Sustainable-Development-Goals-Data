@@ -11,13 +11,81 @@
       "schema": {
         "fields": [
           {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "18 to 64 years",
+                "65 years and over",
+                "Under 18 years"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Education Attainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bachelor's Degree or Higher",
+                "High School Graduate",
+                "Less than High School"
+              ]
+            },
+            "title": "Education Attainment"
+          },
+          {
+            "name": "Employment Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Employed",
+                "Not in Labor Force",
+                "Unemployed"
+              ]
+            },
+            "title": "Employment Status"
+          },
+          {
+            "name": "Race",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "African American",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Hispanic or Latino",
+                "White"
+              ]
+            },
+            "title": "Race"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage by Age",
+                "Percentage by Education",
+                "Percentage by Employment",
+                "Percentage by Race"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

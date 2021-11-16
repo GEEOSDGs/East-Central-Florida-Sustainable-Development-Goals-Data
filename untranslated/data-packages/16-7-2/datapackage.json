@@ -12,7 +12,40 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Persons Registered to Vote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "General Election",
+                "Primary Election",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Primary vs. General Election",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "General Election",
+                "Primary Election",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Turnout of Registered vs. Eligible Voters",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Registered Voters",
+                "Eligible Voters",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

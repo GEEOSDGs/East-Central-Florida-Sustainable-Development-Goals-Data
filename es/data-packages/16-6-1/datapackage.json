@@ -12,12 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Departmental/ Non-departmental",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Departmental",
+                "Non-departmental",
+                ""
+              ]
+            },
+            "title": "Departmental/ Non-departmental"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Adopted Budget (Million $)",
+                "Actual Expenditures (Million $)",
+                "Expenditure as a Proportion of Adopted Budget (%)",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

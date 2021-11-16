@@ -12,8 +12,76 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Age",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Under 18 years",
+                "18 to 64 years",
+                "65 years and over",
+                ""
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Race",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "White",
+                "African American",
+                "American Indian and Alaska Native",
+                "Asian",
+                "Hispanic or Latino",
+                ""
+              ]
+            },
+            "title": "Race"
+          },
+          {
+            "name": "Education Attainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than High School",
+                "High School Graduate",
+                "Bachelor's Degree or Higher",
+                ""
+              ]
+            },
+            "title": "Education Attainment"
+          },
+          {
+            "name": "Employment Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Employed",
+                "Unemployed",
+                "Not in Labor Force",
+                ""
+              ]
+            },
+            "title": "Employment Status"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage by Age",
+                "Percentage by Race",
+                "Percentage by Education",
+                "Percentage by Employment",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

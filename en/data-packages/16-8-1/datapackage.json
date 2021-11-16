@@ -11,13 +11,26 @@
       "schema": {
         "fields": [
           {
+            "name": "Turnout Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percentage registered out of eligible",
+                "Turnout eligible",
+                "Turnout registered"
+              ]
+            },
+            "title": "Turnout Type"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

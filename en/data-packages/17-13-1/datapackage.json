@@ -11,13 +11,28 @@
       "schema": {
         "fields": [
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "City Expense Budget (Thousands of dollars)",
+                "City Revenue Budget (Thousands of dollars)",
+                "GPD (Thousands of current dollars)",
+                "Real per capita personal income (Chained 2012 dollars)",
+                "Unemployment rate"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

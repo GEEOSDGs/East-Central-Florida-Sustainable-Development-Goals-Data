@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Turnout Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage registered out of eligible",
+                "Turnout registered",
+                "Turnout eligible",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -11,13 +11,49 @@
       "schema": {
         "fields": [
           {
+            "name": "Persons Registered to Vote",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "General Election",
+                "Primary Election"
+              ]
+            },
+            "title": "Persons Registered to Vote"
+          },
+          {
+            "name": "Primary vs. General Election",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "General Election",
+                "Primary Election"
+              ]
+            },
+            "title": "Primary vs. General Election"
+          },
+          {
+            "name": "Turnout of Registered vs. Eligible Voters",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Eligible Voters",
+                "Registered Voters"
+              ]
+            },
+            "title": "Turnout of Registered vs. Eligible Voters"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

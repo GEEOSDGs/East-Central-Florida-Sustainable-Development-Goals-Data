@@ -1,1 +1,17 @@
-Year,Value
+Year,Country Group,Units,Value
+2017,developed,Exports,43613716123.0
+2017,developing,Exports,83413014490.0
+2017,LDC,Exports,443474454.0
+2017,transition,Exports,552452185.0
+2017,developed,Imports,53856312016.0
+2017,developing,Imports,243573000000.0
+2017,LDC,Imports,3291052741.0
+2017,transition,Imports,1494367182.0
+2018,developed,Exports,44237808382.0
+2018,developing,Exports,84575522829.0
+2018,LDC,Exports,556942267.0
+2018,transition,Exports,620424852.0
+2018,developed,Imports,55811829514.0
+2018,developing,Imports,270380000000.0
+2018,LDC,Imports,3648315435.0
+2018,transition,Imports,1214560240.0

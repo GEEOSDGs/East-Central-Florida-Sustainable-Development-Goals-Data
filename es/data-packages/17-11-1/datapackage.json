@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Country Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "developed",
+                "developing",
+                "LDC",
+                "transition",
+                ""
+              ]
+            },
+            "title": "Country Group"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Exports",
+                "Imports",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

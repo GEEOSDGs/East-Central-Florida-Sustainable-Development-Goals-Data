@@ -12,8 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "GPD (Thousands of current dollars)",
+                "Real per capita personal income (Chained 2012 dollars)",
+                "Unemployment rate",
+                "City Expense Budget (Thousands of dollars)",
+                "City Revenue Budget (Thousands of dollars)",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

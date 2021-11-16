@@ -12,8 +12,37 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Revenue Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Property Tax",
+                "Utility Users Tax",
+                "Business Tax",
+                "Sales Tax",
+                "Other Tax",
+                ""
+              ]
+            },
+            "title": "Revenue Source"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Budget",
+                "Total Revenue",
+                "% Budget Funded by Taxes",
+                "Tax Revenue by Source",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

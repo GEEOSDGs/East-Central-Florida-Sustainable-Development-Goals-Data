@@ -11,13 +11,42 @@
       "schema": {
         "fields": [
           {
+            "name": "Revenue Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Business Tax",
+                "Other Tax",
+                "Property Tax",
+                "Sales Tax",
+                "Utility Users Tax"
+              ]
+            },
+            "title": "Revenue Source"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "% Budget Funded by Taxes",
+                "Tax Revenue by Source",
+                "Total Budget",
+                "Total Revenue"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

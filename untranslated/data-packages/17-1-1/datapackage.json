@@ -12,7 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Revenue Source",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Property Tax",
+                "Licenses Permits Fees and Fines",
+                "Utility Users Tax",
+                "Sewer Construction and Maintenance Fund",
+                "Business Tax",
+                "Sales Tax",
+                "Other",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -11,13 +11,29 @@
       "schema": {
         "fields": [
           {
+            "name": "Type of Booking",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "AB109 sentenced and with open charges",
+                "Awaiting mental health hospitals",
+                "Awaiting state prison",
+                "County sentenced",
+                "Parole revocation",
+                "Pre-trial"
+              ]
+            },
+            "title": "Type of Booking"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

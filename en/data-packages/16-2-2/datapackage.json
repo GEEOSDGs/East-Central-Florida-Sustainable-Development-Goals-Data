@@ -11,13 +11,37 @@
       "schema": {
         "fields": [
           {
+            "name": "Age Range",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 and over",
+                "Under 15"
+              ]
+            },
+            "title": "Age Range"
+          },
+          {
+            "name": "Crime Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Human trafficking - commercial sex acts",
+                "Human trafficking - involuntary serviture"
+              ]
+            },
+            "title": "Crime Type"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

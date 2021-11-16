@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "string"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "White",
+                "Hispanic",
+                "African American",
+                "Asian",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total maternal deaths",
+                "Maternal Mortality Rate",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

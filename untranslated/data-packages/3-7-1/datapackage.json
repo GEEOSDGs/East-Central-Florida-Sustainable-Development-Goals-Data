@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Use of Birth Control",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Uses birth control to prevent pregnancy",
+                "Does not use birth control to prevent pregnancy",
+                "No male sexual partner",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

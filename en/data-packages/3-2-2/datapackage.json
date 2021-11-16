@@ -11,13 +11,37 @@
       "schema": {
         "fields": [
           {
+            "name": "Age of Infant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "1-6 days",
+                "7-27 days"
+              ]
+            },
+            "title": "Age of Infant"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Death Rate per 1,000",
+                "Total Number of Deaths"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

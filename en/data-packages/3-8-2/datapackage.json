@@ -12,13 +12,27 @@
         "fields": [
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "all spending",
+                "medicaid",
+                "medicare",
+                "private health insurance"
+              ]
+            },
+            "title": "type"
           }
         ]
       }

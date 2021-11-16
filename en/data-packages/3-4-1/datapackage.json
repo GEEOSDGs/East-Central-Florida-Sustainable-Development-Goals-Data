@@ -11,13 +11,39 @@
       "schema": {
         "fields": [
           {
+            "name": "Cause of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "cancer",
+                "circulatory disease",
+                "diabetes mellitus",
+                "respiratory disease"
+              ]
+            },
+            "title": "Cause of death"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Number of deaths",
+                "Rate per 1000 deaths"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -12,7 +12,29 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Age of Infant",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1-6 days",
+                "7-27 days",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Number of Deaths",
+                "Death Rate per 1,000",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

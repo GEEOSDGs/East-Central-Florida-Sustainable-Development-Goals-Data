@@ -11,13 +11,29 @@
       "schema": {
         "fields": [
           {
+            "name": "Disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Cysticercosis",
+                "Dengue",
+                "Ectoparasites (pediculosis and scabies)",
+                "Foodborne Outbreaks",
+                "Leprosy",
+                "Taeniasis"
+              ]
+            },
+            "title": "Disease"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

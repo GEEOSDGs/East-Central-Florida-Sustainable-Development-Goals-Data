@@ -11,13 +11,39 @@
       "schema": {
         "fields": [
           {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent conditional entrants",
+                "Percent with TDAP vaccine",
+                "Percent with all required immunizations",
+                "Percent with permanent medical exemption"
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "7th Grade Immunization Assessment",
+                "Kindergarten Immunization Assessment"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

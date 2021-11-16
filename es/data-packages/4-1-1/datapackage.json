@@ -12,8 +12,58 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Grade Level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grade 3",
+                "Grade 6",
+                "Grade 11",
+                ""
+              ]
+            },
+            "title": "Grade Level"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Poverty Level",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Economically Disadvantaged",
+                "Not Economically Disadvantaged",
+                ""
+              ]
+            },
+            "title": "Poverty Level"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage by Grade",
+                "Percentage by Gender",
+                "Percentage by Poverty Level",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

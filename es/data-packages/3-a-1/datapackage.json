@@ -12,8 +12,91 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Latino",
+                "White",
+                "African American",
+                "Asian",
+                "Native Hawaiian and Other Pacific Islander",
+                "American Indian/Alaska Native",
+                ""
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Education Attainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Less than high school",
+                "High school",
+                "Some college or trade school",
+                "College or post graduate degree",
+                ""
+              ]
+            },
+            "title": "Education Attainment"
+          },
+          {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "18-24",
+                "25-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                ""
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "By Gender",
+                "By Race/Ethnicity",
+                "By Education Attainment",
+                "By Age Group",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Current Smoker",
+                "Used an Electronic Cigarette in the Past Month",
+                ""
+              ]
+            },
+            "title": "Unit"
           },
           {
             "name": "Value",

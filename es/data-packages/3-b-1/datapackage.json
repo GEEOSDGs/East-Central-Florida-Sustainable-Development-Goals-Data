@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Status",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent with all required immunizations",
+                "Percent conditional entrants",
+                "Percent with permanent medical exemption",
+                "Percent with TDAP vaccine",
+                ""
+              ]
+            },
+            "title": "Status"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Kindergarten Immunization Assessment",
+                "7th Grade Immunization Assessment",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

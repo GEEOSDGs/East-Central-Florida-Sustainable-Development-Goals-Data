@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Male",
+                "Female",
+                ""
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Hispanic or Latino",
+                "Asian or Pacific Islander",
+                "Black or African American",
+                "White",
+                ""
+              ]
+            },
+            "title": "Race/ Ethnicity"
           },
           {
             "name": "Value",

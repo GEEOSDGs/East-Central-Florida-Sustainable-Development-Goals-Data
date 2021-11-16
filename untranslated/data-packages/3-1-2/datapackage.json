@@ -12,11 +12,40 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Attendant Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Doctor of Medicine(MD)",
+                "Doctor of Osteopathy(DO)",
+                "Certified Nurse Midwife(CNM)",
+                "Other or Unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Payment Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Medicaid",
+                "Private Insurance",
+                "Self-pay",
+                "Other or Unknown",
+                "Selfpay",
+                "Self pay",
+                "Other",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

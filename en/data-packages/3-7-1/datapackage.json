@@ -11,13 +11,26 @@
       "schema": {
         "fields": [
           {
+            "name": "Use of Birth Control",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Does not use birth control to prevent pregnancy",
+                "No male sexual partner",
+                "Uses birth control to prevent pregnancy"
+              ]
+            },
+            "title": "Use of Birth Control"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

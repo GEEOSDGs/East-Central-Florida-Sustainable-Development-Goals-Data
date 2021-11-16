@@ -11,13 +11,44 @@
       "schema": {
         "fields": [
           {
+            "name": "Attendant Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Certified Nurse Midwife(CNM)",
+                "Doctor of Medicine(MD)",
+                "Doctor of Osteopathy(DO)",
+                "Other or Unknown"
+              ]
+            },
+            "title": "Attendant Type"
+          },
+          {
+            "name": "Payment Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Medicaid",
+                "Other",
+                "Other or Unknown",
+                "Private Insurance",
+                "Self pay",
+                "Self-pay",
+                "Selfpay"
+              ]
+            },
+            "title": "Payment Type"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

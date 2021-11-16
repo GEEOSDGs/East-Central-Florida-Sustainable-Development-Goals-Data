@@ -11,13 +11,51 @@
       "schema": {
         "fields": [
           {
+            "name": "Fruit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Apples",
+                "Lemons",
+                "Oranges"
+              ]
+            },
+            "title": "Fruit"
+          },
+          {
+            "name": "Grade",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "A",
+                "B"
+              ]
+            },
+            "title": "Grade"
+          },
+          {
+            "name": "Planet",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Earth",
+                "Mercury",
+                "Venus"
+              ]
+            },
+            "title": "Planet"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

@@ -12,12 +12,26 @@
         "fields": [
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
+            "name": "Victim Mode",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Bicyclists",
+                "Motorcyclists",
+                "Pedestrians",
+                "Vehicle Occupants"
+              ]
+            },
+            "title": "Victim Mode"
+          },
+          {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

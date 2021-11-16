@@ -12,7 +12,31 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Cause of death",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "respiratory disease",
+                "circulatory disease",
+                "cancer",
+                "diabetes mellitus",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of deaths",
+                "Rate per 1000 deaths",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

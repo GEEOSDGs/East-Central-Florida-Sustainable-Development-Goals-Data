@@ -11,13 +11,71 @@
       "schema": {
         "fields": [
           {
+            "name": "Age Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "18-24",
+                "25-29",
+                "30-39",
+                "40-49",
+                "50-59",
+                "60-64",
+                "65 and over"
+              ]
+            },
+            "title": "Age Group"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Gender"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "African American",
+                "American Indian/Alaska Native",
+                "Asian",
+                "Latino",
+                "Native Hawaiians and Other Pacific Islanders",
+                "White"
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "By Age Group",
+                "By Gender",
+                "By Race/Ethnicity"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

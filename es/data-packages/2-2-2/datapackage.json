@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Weight category",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0 - 18.49 (Underweight)",
+                "18.5 - 22.99 (Increasing but acceptable risk)",
+                "23.0 - 27.49 (Increased risk)",
+                "27.5 or higher (Higher high risk)",
+                ""
+              ]
+            },
+            "title": "Weight category"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "under 5 overweight",
+                "adult BMI",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

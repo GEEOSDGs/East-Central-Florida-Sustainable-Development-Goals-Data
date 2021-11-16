@@ -12,7 +12,44 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Demographic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Elderly",
+                "18 to 58",
+                "Children",
+                "ESL",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "By Program Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "CalFresh",
+                "Medical",
+                "SSI",
+                "Unemployment",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Enrollment",
+                "As a Percentage of Total Population",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

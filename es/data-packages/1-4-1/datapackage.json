@@ -12,8 +12,33 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Service Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Complete Plumbing Facilities",
+                "Complete Kitchen Facilities",
+                "Telephone Service",
+                ""
+              ]
+            },
+            "title": "Service Type"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent With Service",
+                "Total Population With Service",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

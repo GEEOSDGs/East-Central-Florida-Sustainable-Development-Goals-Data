@@ -11,13 +11,38 @@
       "schema": {
         "fields": [
           {
+            "name": "Service Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Complete Kitchen Facilities",
+                "Complete Plumbing Facilities",
+                "Telephone Service"
+              ]
+            },
+            "title": "Service Type"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent With Service",
+                "Total Population With Service"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

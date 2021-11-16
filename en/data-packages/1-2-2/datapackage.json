@@ -11,13 +11,54 @@
       "schema": {
         "fields": [
           {
+            "name": "Education Attainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "College degree or higher",
+                "High School Diploma",
+                "Less than High School",
+                "Some College"
+              ]
+            },
+            "title": "Education Attainment"
+          },
+          {
+            "name": "Race/ Ethnicity",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "African American",
+                "Asian American/ Pacific Islander",
+                "Latino",
+                "Native American/ Alaska Native",
+                "White"
+              ]
+            },
+            "title": "Race/ Ethnicity"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Percent by Education Level",
+                "Percent by Race/ Ethnicity"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

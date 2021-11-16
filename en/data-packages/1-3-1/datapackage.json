@@ -11,13 +11,53 @@
       "schema": {
         "fields": [
           {
+            "name": "By Program Type",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "CalFresh",
+                "Medical",
+                "SSI",
+                "Unemployment"
+              ]
+            },
+            "title": "By Program Type"
+          },
+          {
+            "name": "Demographic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "18 to 58",
+                "Children",
+                "ESL",
+                "Elderly"
+              ]
+            },
+            "title": "Demographic"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "As a Percentage of Total Population",
+                "Total Enrollment"
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

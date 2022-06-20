@@ -11,48 +11,22 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Female",
-                "Male"
+                "Lake",
+                "Orange",
+                "Osceloa",
+                "Seminole"
               ]
             },
-            "title": "Gender"
-          },
-          {
-            "name": "Race/ Ethnicity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "American Indian or Alaska Native",
-                "Asian",
-                "Black",
-                "Hispanic or Latino",
-                "Native Hawaiian and Other Pacific Islander",
-                "White"
-              ]
-            },
-            "title": "Race/ Ethnicity"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Bachelor's degree or higher",
-                "High school graduate or higher"
-              ]
-            },
-            "title": "Units"
+            "title": "County"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {

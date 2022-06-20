@@ -1,169 +1,239 @@
-Year,Age,Gender,Race,Education Attainment,Employment Status,Units,Value
-2012,,,,,,Percent by Age,23.3
-2012,Under 18 years,,,,,Percent by Age,34.0
-2012,18 to 64 years,,,,,Percent by Age,20.8
-2012,65 years and over,,,,,Percent by Age,16.6
-2012,,,,,,Percent by Gender,23.3
-2012,,Male,,,,Percent by Gender,21.6
-2012,,Female,,,,Percent by Gender,24.9
-2012,,,,,,Percent by Race,23.3
-2012,,,White,,,Percent by Race,18.5
-2012,,,Black or African American,,,Percent by Race,30.2
-2012,,,American Indian and Alaska Native,,,Percent by Race,28.7
-2012,,,Asian,,,Percent by Race,16.1
-2012,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,26.8
-2012,,,Hispanic or Latino origin (any race),,,Percent by Race,30.3
-2012,,,,,,Percent by Education,23.3
-2012,,,,Less than High School,,Percent by Education,31.7
-2012,,,,High School Graduate,,Percent by Education,20.9
-2012,,,,Bachelor's Degree or Higher,,Percent by Education,8.1
-2012,,,,,,Percentage by Employment,23.3
-2012,,,,,Employed,Percentage by Employment,11.2
-2012,,,,,Unemployed,Percentage by Employment,35.6
-2013,,,,,,Percent by Age,23.0
-2013,Under 18 years,,,,,Percent by Age,33.8
-2013,18 to 64 years,,,,,Percent by Age,20.5
-2013,65 years and over,,,,,Percent by Age,16.6
-2013,,,,,,Percent by Gender,23.0
-2013,,Male,,,,Percent by Gender,21.4
-2013,,Female,,,,Percent by Gender,24.5
-2013,,,,,,Percent by Race,23.0
-2013,,,White,,,Percent by Race,19.4
-2013,,,Black or African American,,,Percent by Race,28.8
-2013,,,American Indian and Alaska Native,,,Percent by Race,33.2
-2013,,,Asian,,,Percent by Race,15.8
-2013,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,20.9
-2013,,,Hispanic or Latino origin (any race),,,Percent by Race,29.5
-2013,,,,,,Percent by Education,23.0
-2013,,,,Less than High School,,Percent by Education,30.6
-2013,,,,High School Graduate,,Percent by Education,20.8
-2013,,,,Bachelor's Degree or Higher,,Percent by Education,8.7
-2013,,,,,,Percentage by Employment,23.0
-2013,,,,,Employed,Percentage by Employment,11.5
-2013,,,,,Unemployed,Percentage by Employment,37.7
-2014,,,,,,Percent by Age,22.4
-2014,Under 18 years,,,,,Percent by Age,33.0
-2014,18 to 64 years,,,,,Percent by Age,19.8
-2014,65 years and over,,,,,Percent by Age,16.7
-2014,,,,,,Percent by Gender,22.4
-2014,,Male,,,,Percent by Gender,20.6
-2014,,Female,,,,Percent by Gender,24.0
-2014,,,,,,Percent by Race,22.4
-2014,,,White,,,Percent by Race,19.4
-2014,,,Black or African American,,,Percent by Race,28.7
-2014,,,American Indian and Alaska Native,,,Percent by Race,20.3
-2014,,,Asian,,,Percent by Race,15.8
-2014,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,17.1
-2014,,,Hispanic or Latino origin (any race),,,Percent by Race,29.3
-2014,,,,,,Percent by Education,22.4
-2014,,,,Less than High School,,Percent by Education,31.3
-2014,,,,High School Graduate,,Percent by Education,21.2
-2014,,,,Bachelor's Degree or Higher,,Percent by Education,8.0
-2014,,,,,,Percentage by Employment,22.4
-2014,,,,,Employed,Percentage by Employment,11.3
-2014,,,,,Unemployed,Percentage by Employment,37.2
-2015,,,,,,Percent by Age,20.5
-2015,Under 18 years,,,,,Percent by Age,29.6
-2015,18 to 64 years,,,,,Percent by Age,18.4
-2015,65 years and over,,,,,Percent by Age,15.6
-2015,,,,,,Percent by Gender,20.5
-2015,,Male,,,,Percent by Gender,19.1
-2015,,Female,,,,Percent by Gender,21.9
-2015,,,,,,Percent by Race,20.5
-2015,,,White,,,Percent by Race,17.4
-2015,,,Black or African American,,,Percent by Race,26.2
-2015,,,American Indian and Alaska Native,,,Percent by Race,29.4
-2015,,,Asian,,,Percent by Race,15.5
-2015,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,
-2015,,,Hispanic or Latino origin (any race),,,Percent by Race,26.4
-2015,,,,,,Percent by Education,20.5
-2015,,,,Less than High School,,Percent by Education,29.3
-2015,,,,High School Graduate,,Percent by Education,19.2
-2015,,,,Bachelor's Degree or Higher,,Percent by Education,7.4
-2015,,,,,,Percentage by Employment,20.5
-2015,,,,,Employed,Percentage by Employment,10.2
-2015,,,,,Unemployed,Percentage by Employment,37.1
-2016,,,,,,Percent by Age,19.5
-2016,Under 18 years,,,,,Percent by Age,28.5
-2016,18 to 64 years,,,,,Percent by Age,17.5
-2016,65 years and over,,,,,Percent by Age,15.1
-2016,,,,,,Percent by Gender,19.5
-2016,,Male,,,,Percent by Gender,17.6
-2016,,Female,,,,Percent by Gender,21.3
-2016,,,,,,Percent by Race,19.5
-2016,,,White,,,Percent by Race,16.3
-2016,,,Black or African American,,,Percent by Race,27.4
-2016,,,American Indian and Alaska Native,,,Percent by Race,22.8
-2016,,,Asian,,,Percent by Race,15.4
-2016,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,15.0
-2016,,,Hispanic or Latino origin (any race),,,Percent by Race,24.1
-2016,,,,,,Percent by Education,19.5
-2016,,,,Less than High School,,Percent by Education,28.2
-2016,,,,High School Graduate,,Percent by Education,18.4
-2016,,,,Bachelor's Degree or Higher,,Percent by Education,7.1
-2016,,,,,,Percentage by Employment,19.5
-2016,,,,,Employed,Percentage by Employment,9.7
-2016,,,,,Unemployed,Percentage by Employment,32.8
-2017,,,,,,Percent by Age,17.4
-2017,Under 18 years,,,,,Percent by Age,24.7
-2017,18 to 64 years,,,,,Percent by Age,15.5
-2017,65 years and over,,,,,Percent by Age,15.2
-2017,,,,,,Percent by Gender,17.4
-2017,,Male,,,,Percent by Gender,16.0
-2017,,Female,,,,Percent by Gender,18.7
-2017,,,,,,Percent by Race,17.4
-2017,,,White,,,Percent by Race,15.3
-2017,,,Black or African American,,,Percent by Race,23.6
-2017,,,American Indian and Alaska Native,,,Percent by Race,16.0
-2017,,,Asian,,,Percent by Race,14.5
-2017,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,
-2017,,,Hispanic or Latino origin (any race),,,Percent by Race,21.1
-2017,,,,,,Percent by Education,17.4
-2017,,,,Less than High School,,Percent by Education,24.8
-2017,,,,High School Graduate,,Percent by Education,16.9
-2017,,,,Bachelor's Degree or Higher,,Percent by Education,7.3
-2017,,,,,,Percentage by Employment,17.4
-2017,,,,,Employed,Percentage by Employment,8.1
-2017,,,,,Unemployed,Percentage by Employment,29.3
-2018,,,,,,Percent by Age,16.5
-2018,Under 18 years,,,,,Percent by Age,22.9
-2018,18 to 64 years,,,,,Percent by Age,14.6
-2018,65 years and over,,,,,Percent by Age,16.2
-2018,,,,,,Percent by Gender,16.5
-2018,,Male,,,,Percent by Gender,15.2
-2018,,Female,,,,Percent by Gender,17.8
-2018,,,,,,Percent by Race,16.5
-2018,,,White,,,Percent by Race,15.0
-2018,,,Black or African American,,,Percent by Race,23.9
-2018,,,American Indian and Alaska Native,,,Percent by Race,16.5
-2018,,,Asian,,,Percent by Race,13.2
-2018,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,14.5
-2018,,,Hispanic or Latino origin (any race),,,Percent by Race,19.7
-2018,,,,,,Percent by Education,16.5
-2018,,,,Less than High School,,Percent by Education,23.7
-2018,,,,High School Graduate,,Percent by Education,17.3
-2018,,,,Bachelor's Degree or Higher,,Percent by Education,6.8
-2018,,,,,,Percentage by Employment,16.5
-2018,,,,,Employed,Percentage by Employment,7.6
-2018,,,,,Unemployed,Percentage by Employment,29.7
-2019,,,,,,Percent by Age,16.7
-2019,Under 18 years,,,,,Percent by Age,24.5
-2019,18 to 64 years,,,,,Percent by Age,14.4
-2019,65 years and over,,,,,Percent by Age,16.3
-2019,,,,,,Percent by Gender,16.7
-2019,,Male,,,,Percent by Gender,15.4
-2019,,Female,,,,Percent by Gender,18.0
-2019,,,,,,Percent by Race,16.7
-2019,,,White,,,Percent by Race,14.4
-2019,,,Black or African American,,,Percent by Race,24.6
-2019,,,American Indian and Alaska Native,,,Percent by Race,16.9
-2019,,,Asian,,,Percent by Race,13.6
-2019,,,Native Hawaiian and Other Pacific Islander,,,Percent by Race,15.5
-2019,,,Hispanic or Latino origin (any race),,,Percent by Race,20.2
-2019,,,,,,Percent by Education,16.7
-2019,,,,Less than High School,,Percent by Education,23.8
-2019,,,,High School Graduate,,Percent by Education,17.2
-2019,,,,Bachelor's Degree or Higher,,Percent by Education,6.9
-2019,,,,,,Percentage by Employment,16.7
-2019,,,,,Employed,Percentage by Employment,3.9
-2019,,,,,Unemployed,Percentage by Employment,35.8
+Year,Age,Gender,Race,Value
+2013,Under 5 Years,Male,,4.923961092
+2013,Under 5 Years,Female,,4.971085238
+2013,5 Years,Male,,1.106393005
+2013,5 Years,Female,,0.955800624
+2013,6 to 11 Years,Male,,5.68614294
+2013,6 to 11 Years,Female,,5.26766003
+2013,12 to 14 Years,Male,,2.279374478
+2013,12 to 14 Years,Female,,2.674295315
+2013,15 Years,Male,,0.755010782
+2013,15 Years,Female,,0.898944317
+2013,16 & 17 Years,Male,,1.818889612
+2013,16 & 17 Years,Female,,1.724641319
+2013,18 to 24 Years,Male,,8.949490086
+2013,18 to 24 Years,Female,,9.30548228
+2013,25 to 34 Years,Male,,6.68394552
+2013,25 to 34 Years,Female,,8.102792106
+2013,35 to 44 Years,Male,,4.381521188
+2013,35 to 44 Years,Female,,6.418616087
+2013,45 to 54 Years,Male,,4.30981053
+2013,45 to 54 Years,Female,,5.735828181
+2013,55 to 64 Years,Male,,3.400109615
+2013,55 to 64 Years,Female,,3.469259178
+2013,65 to 74 Years,Male,,1.300011781
+2013,65 to 74 Years,Female,,2.29371661
+2013,75 Years & Over,Male,,0.777036199
+2013,75 Years & Over,Female,,1.810181889
+2013,,,White,38.14072894
+2013,,,Hispanic,26.83256816
+2013,,,Black,22.7437459
+2013,,,Other,6.831818608
+2013,,,Asian,2.686779725
+2013,,,Two Or More,2.282394828
+2013,,,Native American,0.442612199
+2013,,,Pacific Islander,0.039351635
+2014,Under 5 Years,Male,,4.914811854
+2014,Under 5 Years,Female,,5.104546899
+2014,5 Years,Male,,1.160562078
+2014,5 Years,Female,,0.856215508
+2014,6 to 11 Years,Male,,5.503279431
+2014,6 to 11 Years,Female,,5.194598812
+2014,12 to 14 Years,Male,,2.373614308
+2014,12 to 14 Years,Female,,2.5850196
+2014,15 Years,Male,,0.940007127
+2014,15 Years,Female,,1.01175972
+2014,16 & 17 Years,Male,,1.839081567
+2014,16 & 17 Years,Female,,1.591559198
+2014,18 to 24 Years,Male,,8.351712913
+2014,18 to 24 Years,Female,,8.858315114
+2014,25 to 34 Years,Male,,6.702366391
+2014,25 to 34 Years,Female,,8.235175144
+2014,35 to 44 Years,Male,,4.585424111
+2014,35 to 44 Years,Female,,6.66432307
+2014,45 to 54 Years,Male,,4.478517563
+2014,45 to 54 Years,Female,,5.820628148
+2014,55 to 64 Years,Male,,3.312658313
+2014,55 to 64 Years,Female,,3.581850928
+2014,65 to 74 Years,Male,,1.289138873
+2014,65 to 74 Years,Female,,2.295119861
+2014,75 Years & Over,Male,,0.86151268
+2014,75 Years & Over,Female,,1.888200792
+2014,,,White,38.03780725
+2014,,,Hispanic,27.2383889
+2014,,,Black,22.63844847
+2014,,,Other,6.151824664
+2014,,,Asian,3.116382558
+2014,,,Two Or More,2.456244854
+2014,,,Native American,0.301336744
+2014,,,Pacific Islander,0.059566566
+2015,Under 5 Years,Male,,4.783777043
+2015,Under 5 Years,Female,,5.189915713
+2015,5 Years,Male,,1.161001275
+2015,5 Years,Female,,0.888516582
+2015,6 to 11 Years,Male,,5.419104048
+2015,6 to 11 Years,Female,,5.112264635
+2015,12 to 14 Years,Male,,2.665079134
+2015,12 to 14 Years,Female,,2.602017046
+2015,15 Years,Male,,0.81557163
+2015,15 Years,Female,,1.069231819
+2015,16 & 17 Years,Male,,1.741266607
+2015,16 & 17 Years,Female,,1.753502534
+2015,18 to 24 Years,Male,,7.888878954
+2015,18 to 24 Years,Female,,8.687979142
+2015,25 to 34 Years,Male,,6.629049033
+2015,25 to 34 Years,Female,,8.472909186
+2015,35 to 44 Years,Male,,4.424229019
+2015,35 to 44 Years,Female,,6.723171552
+2015,45 to 54 Years,Male,,4.463760477
+2015,45 to 54 Years,Female,,6.000310604
+2015,55 to 64 Years,Male,,3.179458701
+2015,55 to 64 Years,Female,,3.53994795
+2015,65 to 74 Years,Male,,1.433956581
+2015,65 to 74 Years,Female,,2.373769936
+2015,75 Years & Over,Male,,0.963814597
+2015,75 Years & Over,Female,,2.017516201
+2015,,,White,38.41066842
+2015,,,Hispanic,27.41672132
+2015,,,Black,22.00770618
+2015,,,Other,6.705334208
+2015,,,Asian,2.93593212
+2015,,,Two Or More,2.290676067
+2015,,,Native American,0.217248729
+2015,,,Pacific Islander,0.015712958
+2016,Under 5 Years,Male,,4.862685934
+2016,Under 5 Years,Female,,5.173381108
+2016,5 Years,Male,,1.11595672
+2016,5 Years,Female,,0.743971146
+2016,6 to 11 Years,Male,,5.412885128
+2016,6 to 11 Years,Female,,5.196482874
+2016,12 to 14 Years,Male,,2.740623748
+2016,12 to 14 Years,Female,,2.507720233
+2016,15 Years,Male,,0.837321138
+2016,15 Years,Female,,0.970745621
+2016,16 & 17 Years,Male,,1.617595059
+2016,16 & 17 Years,Female,,1.776950095
+2016,18 to 24 Years,Male,,7.420381415
+2016,18 to 24 Years,Female,,8.676363122
+2016,25 to 34 Years,Male,,6.754201928
+2016,25 to 34 Years,Female,,8.832889371
+2016,35 to 44 Years,Male,,4.219136748
+2016,35 to 44 Years,Female,,6.651422644
+2016,45 to 54 Years,Male,,4.285613258
+2016,45 to 54 Years,Female,,6.032861083
+2016,55 to 64 Years,Male,,3.291765871
+2016,55 to 64 Years,Female,,3.778788807
+2016,65 to 74 Years,Male,,1.531788501
+2016,65 to 74 Years,Female,,2.610970981
+2016,75 Years & Over,Male,,1.002805214
+2016,75 Years & Over,Female,,1.954692251
+2016,,,White,38.88432306
+2016,,,Hispanic,27.96765583
+2016,,,Black,21.52565052
+2016,,,Other,6.797751468
+2016,,,Asian,2.706667844
+2016,,,Two Or More,2.494413465
+2016,,,Native American,0.134144768
+2016,,,Pacific Islander,0.024112097
+2017,Under 5 Years,Male,,4.833162978
+2017,Under 5 Years,Female,,4.888568344
+2017,5 Years,Male,,1.028342711
+2017,5 Years,Female,,0.66868546
+2017,6 to 11 Years,Male,,5.286436193
+2017,6 to 11 Years,Female,,4.95734742
+2017,12 to 14 Years,Male,,2.70769848
+2017,12 to 14 Years,Female,,2.419208467
+2017,15 Years,Male,,0.897471414
+2017,15 Years,Female,,0.903680636
+2017,16 & 17 Years,Male,,1.723775589
+2017,16 & 17 Years,Female,,1.848915297
+2017,18 to 24 Years,Male,,7.387063802
+2017,18 to 24 Years,Female,,8.305551045
+2017,25 to 34 Years,Male,,6.394065894
+2017,25 to 34 Years,Female,,8.593563425
+2017,35 to 44 Years,Male,,4.437683291
+2017,35 to 44 Years,Female,,6.80100876
+2017,45 to 54 Years,Male,,4.469684667
+2017,45 to 54 Years,Female,,5.772666049
+2017,55 to 64 Years,Male,,3.807208429
+2017,55 to 64 Years,Female,,4.312543584
+2017,65 to 74 Years,Male,,1.623950403
+2017,65 to 74 Years,Female,,2.75402883
+2017,75 Years & Over,Male,,1.123869205
+2017,75 Years & Over,Female,,2.053819627
+2017,,,White,38.48854769
+2017,,,Hispanic,28.62855253
+2017,,,Black,20.7348294
+2017,,,Other,6.797751468
+2017,,,Asian,2.803846639
+2017,,,Two Or More,2.35659475
+2017,,,Native American,0.140107109
+2017,,,Pacific Islander,0.049770408
+2018,Under 5 Years,Male,,4.969945685
+2018,Under 5 Years,Female,,4.811587206
+2018,5 Years,Male,,1.069402535
+2018,5 Years,Female,,0.637296319
+2018,6 to 11 Years,Male,,5.411225106
+2018,6 to 11 Years,Female,,4.951599276
+2018,12 to 14 Years,Male,,2.425588413
+2018,12 to 14 Years,Female,,2.486904043
+2018,15 Years,Male,,0.789861195
+2018,15 Years,Female,,0.863729632
+2018,16 & 17 Years,Male,,1.64055522
+2018,16 & 17 Years,Female,,1.728424864
+2018,18 to 24 Years,Male,,7.187447194
+2018,18 to 24 Years,Female,,8.273264937
+2018,25 to 34 Years,Male,,6.278817139
+2018,25 to 34 Years,Female,,8.612673506
+2018,35 to 44 Years,Male,,4.63922752
+2018,35 to 44 Years,Female,,6.913699457
+2018,45 to 54 Years,Male,,4.306578153
+2018,45 to 54 Years,Female,,5.555582378
+2018,55 to 64 Years,Male,,3.608931804
+2018,55 to 64 Years,Female,,4.712130356
+2018,65 to 74 Years,Male,,1.769945685
+2018,65 to 74 Years,Female,,2.876041038
+2018,75 Years & Over,Male,,1.278455039
+2018,75 Years & Over,Female,,2.201086301
+2018,,,White,38.48854769
+2018,,,Hispanic,28.62855253
+2018,,,Black,20.7348294
+2018,,,Other,6.797751468
+2018,,,Asian,2.803846639
+2018,,,Two Or More,2.35659475
+2018,,,Native American,0.140107109
+2018,,,Pacific Islander,0.049770408
+2019,Under 5 Years,Male,,4.871410519
+2019,Under 5 Years,Female,,4.536315593
+2019,5 Years,Male,,1.041096451
+2019,5 Years,Female,,0.686560903
+2019,6 to 11 Years,Male,,5.666429628
+2019,6 to 11 Years,Female,,5.232596807
+2019,12 to 14 Years,Male,,2.541605488
+2019,12 to 14 Years,Female,,2.55337218
+2019,15 Years,Male,,0.642563706
+2019,15 Years,Female,,0.876362762
+2019,16 & 17 Years,Male,,1.739935641
+2019,16 & 17 Years,Female,,1.549110592
+2019,18 to 24 Years,Male,,6.894258366
+2019,18 to 24 Years,Female,,8.036650688
+2019,25 to 34 Years,Male,,5.718612349
+2019,25 to 34 Years,Female,,8.595312764
+2019,35 to 44 Years,Male,,4.914384525
+2019,35 to 44 Years,Female,,7.248282319
+2019,45 to 54 Years,Male,,3.932121535
+2019,45 to 54 Years,Female,,5.178879299
+2019,55 to 64 Years,Male,,3.649209329
+2019,55 to 64 Years,Female,,4.827413323
+2019,65 to 74 Years,Male,,1.994710105
+2019,65 to 74 Years,Female,,3.293650591
+2019,75 Years & Over,Male,,1.330659395
+2019,75 Years & Over,Female,,2.448495142
+2019,,,White,38.97726693
+2019,,,Hispanic,28.81184946
+2019,,,Black,20.24670585
+2019,,,Other,6.619976837
+2019,,,Asian,2.775896102
+2019,,,Two Or More,2.231788417
+2019,,,Native American,0.304467219
+2019,,,Pacific Islander,0.032049181

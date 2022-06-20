@@ -1,22 +1,33 @@
-Year,Grade Level,Gender,Poverty Level,Units,Value
-2016,Grade 3,,,Percentage by Grade,34.5
-2016,Grade 6,,,Percentage by Grade,36.3
-2016,Grade 11,,,Percentage by Grade,54.5
-2017,Grade 3,,,Percentage by Grade,36.4
-2017,Grade 6,,,Percentage by Grade,37.3
-2017,Grade 11,,,Percentage by Grade,54.6
-2018,Grade 3,,,Percentage by Grade,42.3
-2018,Grade 6,,,Percentage by Grade,39.5
-2018,Grade 11,,,Percentage by Grade,51
-2016,,Male,,Percentage by Gender,33.6
-2016,,Female,,Percentage by Gender,43.9
-2017,,Male,,Percentage by Gender,34.4
-2017,,Female,,Percentage by Gender,44.9
-2018,,Male,,Percentage by Gender,37
-2018,,Female,,Percentage by Gender,47.8
-2016,,,Economically Disadvantaged,Percentage by Poverty Level,32.9
-2016,,,Not Economically Disadvantaged,Percentage by Poverty Level,61.5
-2017,,,Economically Disadvantaged,Percentage by Poverty Level,34
-2017,,,Not Economically Disadvantaged,Percentage by Poverty Level,63.2
-2018,,,Economically Disadvantaged,Percentage by Poverty Level,36.5
-2018,,,Not Economically Disadvantaged,Percentage by Poverty Level,68.1
+Year,County,Topic,Value
+2016,Orange,English,301
+2016,Seminole,English,306
+2016,Osceola,English,298
+2016,Lake,English,302
+2016,Orange,Math,300
+2016,Seminole,Math,305
+2016,Osceola,Math,297
+2016,Lake,Math,302
+2017,Orange,English,302
+2017,Seminole,English,307
+2017,Osceola,English,300
+2017,Lake,English,305
+2017,Orange,Math,303
+2017,Seminole,Math,305
+2017,Osceola,Math,299
+2017,Lake,Math,304
+2018,Orange,English,300
+2018,Seminole,English,306
+2018,Osceola,English,298
+2018,Lake,English,303
+2018,Orange,Math,301
+2018,Seminole,Math,305
+2018,Osceola,Math,296
+2018,Lake,Math,303
+2019,Orange,English,300
+2019,Seminole,English,307
+2019,Osceola,English,298
+2019,Lake,English,302
+2019,Orange,Math,301
+2019,Seminole,Math,306
+2019,Osceola,Math,298
+2019,Lake,Math,301

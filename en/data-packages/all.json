@@ -4984,58 +4984,34 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Female",
-                "Male"
+                "Lake",
+                "Orange",
+                "Osceola",
+                "Seminole"
               ]
             },
-            "title": "Gender"
+            "title": "County"
           },
           {
-            "name": "Grade Level",
+            "name": "Topic",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Grade 11",
-                "Grade 3",
-                "Grade 6"
+                "English",
+                "Math"
               ]
             },
-            "title": "Grade Level"
-          },
-          {
-            "name": "Poverty Level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Economically Disadvantaged",
-                "Not Economically Disadvantaged"
-              ]
-            },
-            "title": "Poverty Level"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percentage by Gender",
-                "Percentage by Grade",
-                "Percentage by Poverty Level"
-              ]
-            },
-            "title": "Units"
+            "title": "Topic"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {

@@ -15,54 +15,32 @@
             "type": "integer"
           },
           {
-            "name": "Grade Level",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
-                "Grade 3",
-                "Grade 6",
-                "Grade 11",
+                "Orange",
+                "Seminole",
+                "Osceola",
+                "Lake",
                 ""
               ]
             }
           },
           {
-            "name": "Gender",
+            "name": "Topic",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Poverty Level",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Economically Disadvantaged",
-                "Not Economically Disadvantaged",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage by Grade",
-                "Percentage by Gender",
-                "Percentage by Poverty Level",
+                "English",
+                "Math",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

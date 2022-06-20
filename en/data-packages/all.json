@@ -6085,24 +6085,6 @@
             "title": "Gender"
           },
           {
-            "name": "Race",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Asian",
-                "Black",
-                "Hispanic",
-                "Native American",
-                "Other",
-                "Pacific Islander",
-                "Two Or More",
-                "White"
-              ]
-            },
-            "title": "Race"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -48,23 +48,6 @@
             }
           },
           {
-            "name": "Race",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "White",
-                "Hispanic",
-                "Black",
-                "Other",
-                "Asian",
-                "Two Or More",
-                "Native American",
-                "Pacific Islander",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "number"
           }

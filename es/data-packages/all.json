@@ -5514,16 +5514,29 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Orange",
+                "Seminole",
+                "Osceola",
+                "Lake",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "County"
+          },
+          {
+            "name": "Topic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "English",
+                ""
+              ]
+            },
+            "title": "Topic"
           },
           {
             "name": "Value",

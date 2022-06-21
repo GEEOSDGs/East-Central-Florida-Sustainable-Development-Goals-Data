@@ -15,12 +15,24 @@
             "type": "integer"
           },
           {
-            "name": "Group",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Orange",
+                "Seminole",
+                "Osceola",
+                "Lake",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Topic",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "English",
                 ""
               ]
             }

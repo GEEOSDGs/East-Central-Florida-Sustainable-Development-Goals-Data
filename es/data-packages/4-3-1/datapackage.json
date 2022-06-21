@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": "Age Group",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -24,15 +24,19 @@
                 "18-19",
                 "20-24",
                 "25-34",
-                "35 and over",
+                "35+",
+                "15 - 17",
+                "18 - 19",
+                "20 - 24",
+                "25 - 34",
                 ""
               ]
             },
-            "title": "Age Group"
+            "title": "Group"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

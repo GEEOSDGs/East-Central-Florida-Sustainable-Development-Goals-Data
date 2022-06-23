@@ -11,18 +11,6 @@
       "schema": {
         "fields": [
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Parkland as percent of city area (%)",
-                "Total park acres"
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

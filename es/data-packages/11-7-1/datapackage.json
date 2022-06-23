@@ -16,18 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total park acres",
-                "Parkland as percent of city area (%)",
-                ""
-              ]
-            },
-            "title": "Units"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

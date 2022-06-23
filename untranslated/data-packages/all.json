@@ -2408,43 +2408,29 @@
             "type": "integer"
           },
           {
-            "name": "Grade",
+            "name": "Month",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Planet",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mercury",
-                "Venus",
-                "Earth",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Fruit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Apples",
-                "Oranges",
-                "Lemons",
+                "January",
+                "Feburary",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },

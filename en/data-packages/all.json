@@ -2614,46 +2614,30 @@
       "schema": {
         "fields": [
           {
-            "name": "Fruit",
+            "name": "Month",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Apples",
-                "Lemons",
-                "Oranges"
+                "April",
+                "August",
+                "December",
+                "Feburary",
+                "January",
+                "July",
+                "June",
+                "March",
+                "May",
+                "November",
+                "October",
+                "September"
               ]
             },
-            "title": "Fruit"
-          },
-          {
-            "name": "Grade",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "A",
-                "B"
-              ]
-            },
-            "title": "Grade"
-          },
-          {
-            "name": "Planet",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Earth",
-                "Mercury",
-                "Venus"
-              ]
-            },
-            "title": "Planet"
+            "title": "Month"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {

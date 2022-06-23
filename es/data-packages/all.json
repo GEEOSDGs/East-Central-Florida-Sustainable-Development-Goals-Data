@@ -2619,46 +2619,30 @@
             "title": "Year"
           },
           {
-            "name": "Grade",
+            "name": "Month",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "January",
+                "Feburary",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
                 ""
               ]
             },
-            "title": "Grade"
-          },
-          {
-            "name": "Planet",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Mercury",
-                "Venus",
-                "Earth",
-                ""
-              ]
-            },
-            "title": "Planet"
-          },
-          {
-            "name": "Fruit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Apples",
-                "Oranges",
-                "Lemons",
-                ""
-              ]
-            },
-            "title": "Fruit"
+            "title": "Month"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

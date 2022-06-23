@@ -11,42 +11,32 @@
       "schema": {
         "fields": [
           {
-            "name": "Gender",
+            "name": "County",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Female",
-                "Male"
+                "Lake",
+                "Orange",
+                "Osceola",
+                "Seminole"
               ]
             },
-            "title": "Gender"
+            "title": "County"
           },
           {
-            "name": "Race/ Ethnicity",
+            "name": "Crime",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Black or African American",
-                "Hispanic",
-                "White"
+                "Aggravated Assault",
+                "Fondling",
+                "Rape",
+                "Simple Assult"
               ]
             },
-            "title": "Race/ Ethnicity"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Total",
-                "Total by Gender",
-                "Total by Race/ Ethnicity"
-              ]
-            },
-            "title": "Units"
+            "title": "Crime"
           },
           {
             "name": "Value",

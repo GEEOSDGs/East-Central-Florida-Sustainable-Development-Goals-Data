@@ -1,81 +1,113 @@
-Year,Gender,Race/ Ethnicity,Units,Value
-2010,,,Total,22348
-2011,,,Total,21059
-2012,,,Total,19634
-2013,,,Total,17899
-2014,,,Total,20387
-2015,,,Total,25652
-2016,,,Total,28778
-2017,,,Total,30355
-2018,,,Total,29954
-2019,,,Total,29240
-2010,,,Total by Gender,22348
-2011,,,Total by Gender,21059
-2012,,,Total by Gender,19634
-2013,,,Total by Gender,17899
-2014,,,Total by Gender,20387
-2015,,,Total by Gender,25652
-2016,,,Total by Gender,28778
-2017,,,Total by Gender,30355
-2018,,,Total by Gender,29954
-2019,,,Total by Gender,29240
-2010,,,Total by Race/ Ethnicity,22348
-2011,,,Total by Race/ Ethnicity,21059
-2012,,,Total by Race/ Ethnicity,19634
-2013,,,Total by Race/ Ethnicity,17899
-2014,,,Total by Race/ Ethnicity,20387
-2015,,,Total by Race/ Ethnicity,25652
-2016,,,Total by Race/ Ethnicity,28778
-2017,,,Total by Race/ Ethnicity,30355
-2018,,,Total by Race/ Ethnicity,29954
-2019,,,Total by Race/ Ethnicity,29240
-2010,Female,,Total by Gender,7220
-2011,Female,,Total by Gender,7195
-2012,Female,,Total by Gender,6760
-2013,Female,,Total by Gender,6001
-2014,Female,,Total by Gender,7322
-2015,Female,,Total by Gender,9433
-2016,Female,,Total by Gender,10825
-2017,Female,,Total by Gender,11485
-2018,Female,,Total by Gender,11509
-2019,Female,,Total by Gender,11013
-2010,Male,,Total by Gender,15101
-2011,Male,,Total by Gender,13835
-2012,Male,,Total by Gender,12814
-2013,Male,,Total by Gender,11814
-2014,Male,,Total by Gender,12912
-2015,Male,,Total by Gender,15912
-2016,Male,,Total by Gender,17327
-2017,Male,,Total by Gender,18012
-2018,Male,,Total by Gender,17288
-2019,Male,,Total by Gender,16852
-2010,,White,Total by Race/ Ethnicity,3126
-2011,,White,Total by Race/ Ethnicity,2842
-2012,,White,Total by Race/ Ethnicity,2898
-2013,,White,Total by Race/ Ethnicity,2745
-2014,,White,Total by Race/ Ethnicity,3088
-2015,,White,Total by Race/ Ethnicity,3956
-2016,,White,Total by Race/ Ethnicity,4310
-2017,,White,Total by Race/ Ethnicity,4411
-2018,,White,Total by Race/ Ethnicity,4520
-2019,,White,Total by Race/ Ethnicity,4337
-2010,,Black or African American,Total by Race/ Ethnicity,5392
-2011,,Black or African American,Total by Race/ Ethnicity,4970
-2012,,Black or African American,Total by Race/ Ethnicity,4862
-2013,,Black or African American,Total by Race/ Ethnicity,4491
-2014,,Black or African American,Total by Race/ Ethnicity,5247
-2015,,Black or African American,Total by Race/ Ethnicity,6423
-2016,,Black or African American,Total by Race/ Ethnicity,7063
-2017,,Black or African American,Total by Race/ Ethnicity,7418
-2018,,Black or African American,Total by Race/ Ethnicity,7392
-2019,,Black or African American,Total by Race/ Ethnicity,7119
-2010,,Hispanic,Total by Race/ Ethnicity,11693
-2011,,Hispanic,Total by Race/ Ethnicity,11311
-2012,,Hispanic,Total by Race/ Ethnicity,9975
-2013,,Hispanic,Total by Race/ Ethnicity,8804
-2014,,Hispanic,Total by Race/ Ethnicity,9990
-2015,,Hispanic,Total by Race/ Ethnicity,12606
-2016,,Hispanic,Total by Race/ Ethnicity,14056
-2017,,Hispanic,Total by Race/ Ethnicity,14717
-2018,,Hispanic,Total by Race/ Ethnicity,13986
-2019,,Hispanic,Total by Race/ Ethnicity,13751
+﻿Year,County,Crime,Value
+2013,Orange,Rape,149
+2013,Orange,Fondling,46
+2013,Orange,Aggravated Assault,1504
+2013,Orange,Simple Assult,6340
+2013,Seminole,Rape,18
+2013,Seminole,Fondling,6
+2013,Seminole,Aggravated Assault,381
+2013,Seminole,Simple Assult,1929
+2013,Osceola,Rape,26
+2013,Osceola,Fondling,9
+2013,Osceola,Aggravated Assault,355
+2013,Osceola,Simple Assult,1927
+2013,Lake,Rape,23
+2013,Lake,Fondling,12
+2013,Lake,Aggravated Assault,205
+2013,Lake,Simple Assult,1322
+2014,Orange,Rape,179
+2014,Orange,Fondling,40
+2014,Orange,Aggravated Assault,1619
+2014,Orange,Simple Assult,6523
+2014,Seminole,Rape,13
+2014,Seminole,Fondling,7
+2014,Seminole,Aggravated Assault,437
+2014,Seminole,Simple Assult,1814
+2014,Osceola,Rape,33
+2014,Osceola,Fondling,11
+2014,Osceola,Aggravated Assault,255
+2014,Osceola,Simple Assult,1275
+2014,Lake,Rape,32
+2014,Lake,Fondling,17
+2014,Lake,Aggravated Assault,224
+2014,Lake,Simple Assult,1254
+2015,Orange,Rape,174
+2015,Orange,Fondling,54
+2015,Orange,Aggravated Assault,1638
+2015,Orange,Simple Assult,6782
+2015,Seminole,Rape,10
+2015,Seminole,Fondling,3
+2015,Seminole,Aggravated Assault,410
+2015,Seminole,Simple Assult,1876
+2015,Osceola,Rape,35
+2015,Osceola,Fondling,21
+2015,Osceola,Aggravated Assault,358
+2015,Osceola,Simple Assult,1667
+2015,Lake,Rape,37
+2015,Lake,Fondling,15
+2015,Lake,Aggravated Assault,200
+2015,Lake,Simple Assult,1275
+2016,Orange,Rape,164
+2016,Orange,Fondling,71
+2016,Orange,Aggravated Assault,1376
+2016,Orange,Simple Assult,6417
+2016,Seminole,Rape,16
+2016,Seminole,Fondling,0
+2016,Seminole,Aggravated Assault,361
+2016,Seminole,Simple Assult,2156
+2016,Osceola,Rape,49
+2016,Osceola,Fondling,29
+2016,Osceola,Aggravated Assault,360
+2016,Osceola,Simple Assult,1687
+2016,Lake,Rape,28
+2016,Lake,Fondling,18
+2016,Lake,Aggravated Assault,212
+2016,Lake,Simple Assult,1369
+2017,Orange,Rape,139
+2017,Orange,Fondling,62
+2017,Orange,Aggravated Assault,1437
+2017,Orange,Simple Assult,6508
+2017,Seminole,Rape,21
+2017,Seminole,Fondling,1
+2017,Seminole,Aggravated Assault,353
+2017,Seminole,Simple Assult,2063
+2017,Osceola,Rape,43
+2017,Osceola,Fondling,22
+2017,Osceola,Aggravated Assault,266
+2017,Osceola,Simple Assult,1569
+2017,Lake,Rape,32
+2017,Lake,Fondling,14
+2017,Lake,Aggravated Assault,225
+2017,Lake,Simple Assult,1390
+2018,Orange,Rape,200
+2018,Orange,Fondling,77
+2018,Orange,Aggravated Assault,1613
+2018,Orange,Simple Assult,6441
+2018,Seminole,Rape,16
+2018,Seminole,Fondling,1
+2018,Seminole,Aggravated Assault,294
+2018,Seminole,Simple Assult,2216
+2018,Osceola,Rape,41
+2018,Osceola,Fondling,14
+2018,Osceola,Aggravated Assault,215
+2018,Osceola,Simple Assult,1562
+2018,Lake,Rape,40
+2018,Lake,Fondling,11
+2018,Lake,Aggravated Assault,218
+2018,Lake,Simple Assult,1451
+2019,Orange,Rape,179
+2019,Orange,Fondling,86
+2019,Orange,Aggravated Assault,1630
+2019,Orange,Simple Assult,6050
+2019,Seminole,Rape,16
+2019,Seminole,Fondling,0
+2019,Seminole,Aggravated Assault,280
+2019,Seminole,Simple Assult,2145
+2019,Osceola,Rape,53
+2019,Osceola,Fondling,13
+2019,Osceola,Aggravated Assault,245
+2019,Osceola,Simple Assult,1872
+2019,Lake,Rape,19
+2019,Lake,Fondling,18
+2019,Lake,Aggravated Assault,236
+2019,Lake,Simple Assult,1421

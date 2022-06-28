@@ -1518,55 +1518,26 @@
             "title": "Year"
           },
           {
-            "name": "Race/Ethnicity",
+            "name": "Month",
             "type": "string",
             "constraints": {
               "enum": [
-                "White",
-                "Black or African American",
-                "American Indian and Alaska Native",
-                "Asian",
-                "Hispanic or Latino",
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December",
                 ""
               ]
             },
-            "title": "Race/Ethnicity"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            },
-            "title": "Gender"
-          },
-          {
-            "name": "Disability Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "With any disability",
-                ""
-              ]
-            },
-            "title": "Disability Status"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent by Race/Ethnicity",
-                "Percent by Gender",
-                "Percent by Disability Status",
-                ""
-              ]
-            },
-            "title": "Units"
+            "title": "Month"
           },
           {
             "name": "Value",

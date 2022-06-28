@@ -11,55 +11,26 @@
       "schema": {
         "fields": [
           {
-            "name": "Disability Status",
+            "name": "Month",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "With any disability"
+                "April",
+                "August",
+                "December",
+                "February",
+                "January",
+                "July",
+                "June",
+                "March",
+                "May",
+                "November",
+                "October",
+                "September"
               ]
             },
-            "title": "Disability Status"
-          },
-          {
-            "name": "Gender",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Female",
-                "Male"
-              ]
-            },
-            "title": "Gender"
-          },
-          {
-            "name": "Race/Ethnicity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "American Indian and Alaska Native",
-                "Asian",
-                "Black or African American",
-                "Hispanic or Latino",
-                "White"
-              ]
-            },
-            "title": "Race/Ethnicity"
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Percent by Disability Status",
-                "Percent by Gender",
-                "Percent by Race/Ethnicity"
-              ]
-            },
-            "title": "Units"
+            "title": "Month"
           },
           {
             "name": "Value",

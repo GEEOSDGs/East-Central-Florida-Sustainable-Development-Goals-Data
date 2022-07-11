@@ -5555,6 +5555,53 @@
       "title": "Proportion of total research budget allocated to research in the field of marine technology"
     },
     {
+      "path": "Indicator_5-5-1/data.csv",
+      "name": "Indicator_5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Elected v. Boards",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Boards",
+                "Elected"
+              ]
+            },
+            "title": "Elected v. Boards"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Proportion of women"
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Indicator_5-5-1"
+    },
+    {
       "path": "10-3-1/data.csv",
       "name": "10-3-1",
       "profile": "tabular-data-resource",

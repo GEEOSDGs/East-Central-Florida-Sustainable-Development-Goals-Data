@@ -5109,6 +5109,49 @@
       "title": "global_indicators.14-a-1-title"
     },
     {
+      "path": "Indicator_5-5-1/data.csv",
+      "name": "Indicator_5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Elected v. Boards",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Elected",
+                "Boards",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of women",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Indicator_5-5-1"
+    },
+    {
       "path": "10-3-1/data.csv",
       "name": "10-3-1",
       "profile": "tabular-data-resource",

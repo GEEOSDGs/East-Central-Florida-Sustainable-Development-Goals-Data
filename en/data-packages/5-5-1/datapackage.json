@@ -11,16 +11,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Elected v. Commission",
+            "name": "Elected v. Boards",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Boards and Commissions",
+                "Boards",
                 "Elected"
               ]
             },
-            "title": "Elected v. Commission"
+            "title": "Elected v. Boards"
           },
           {
             "name": "Units",
@@ -35,7 +35,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           },
           {

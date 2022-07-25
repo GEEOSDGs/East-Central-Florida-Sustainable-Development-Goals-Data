@@ -9358,16 +9358,16 @@
             "title": "Year"
           },
           {
-            "name": "Elected v. Commission",
+            "name": "Elected v. Boards",
             "type": "string",
             "constraints": {
               "enum": [
                 "Elected",
-                "Boards and Commissions",
+                "Boards",
                 ""
               ]
             },
-            "title": "Elected v. Commission"
+            "title": "Elected v. Boards"
           },
           {
             "name": "Units",
@@ -9382,7 +9382,7 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

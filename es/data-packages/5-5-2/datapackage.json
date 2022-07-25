@@ -32,7 +32,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Percent Female in Management Occupations",
+                "\tPercent Female in Management Occupations",
                 "(subindicator) Median Earnings",
                 ""
               ]

@@ -8478,8 +8478,8 @@
             "constraints": {
               "enum": [
                 "",
-                "(subindicator) Median Earnings",
-                "Percent Female in Management Occupations"
+                "\tPercent Female in Management Occupations",
+                "(subindicator) Median Earnings"
               ]
             },
             "title": "Units"

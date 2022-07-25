@@ -16,30 +16,17 @@
             "title": "Year"
           },
           {
-            "name": "Earning Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "less than $25,000",
-                "$25,000 - $50,000",
-                "$50,000 - $75,000",
-                "over $75,000",
-                ""
-              ]
-            },
-            "title": "Earning Group"
-          },
-          {
-            "name": "Gender",
+            "name": "Sex",
             "type": "string",
             "constraints": {
               "enum": [
                 "Male",
                 "Female",
+                "Male ",
                 ""
               ]
             },
-            "title": "Gender"
+            "title": "Sex"
           },
           {
             "name": "Value",

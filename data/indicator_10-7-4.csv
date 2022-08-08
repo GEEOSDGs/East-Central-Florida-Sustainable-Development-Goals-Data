@@ -1,7 +1,36 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,World Region of Origin,Units,Value
+2016,,Percent foreign born,23.2
+2016,Europe,Foreign born by region of birth (%),
+2016,Asia,Foreign born by region of birth (%),
+2016,Africa,Foreign born by region of birth (%),
+2016,Oceania,Foreign born by region of birth (%),
+2016,Latin America,Foreign born by region of birth (%),
+2016,Northern America,Foreign born by region of birth (%),
+2017,,Percent foreign born,24.6
+2017,Europe,Foreign born by region of birth (%),8
+2017,Asia,Foreign born by region of birth (%),11.8
+2017,Africa,Foreign born by region of birth (%),3.7
+2017,Oceania,Foreign born by region of birth (%),0.3
+2017,Latin America,Foreign born by region of birth (%),74.2
+2017,Northern America,Foreign born by region of birth (%),2
+2018,,Percent foreign born,23.2
+2018,Europe,Foreign born by region of birth (%),
+2018,Asia,Foreign born by region of birth (%),
+2018,Africa,Foreign born by region of birth (%),
+2018,Oceania,Foreign born by region of birth (%),
+2018,Latin America,Foreign born by region of birth (%),
+2018,Northern America,Foreign born by region of birth (%),
+2019,,Percent foreign born,19.9
+2019,Europe,Foreign born by region of birth (%),
+2019,Asia,Foreign born by region of birth (%),
+2019,Africa,Foreign born by region of birth (%),
+2019,Oceania,Foreign born by region of birth (%),
+2019,Latin America,Foreign born by region of birth (%),
+2019,Northern America,Foreign born by region of birth (%),
+2020,,Percent foreign born,23
+2020,Europe,Foreign born by region of birth (%),8.1
+2020,Asia,Foreign born by region of birth (%),13.9
+2020,Africa,Foreign born by region of birth (%),2.4
+2020,Oceania,Foreign born by region of birth (%),0.1
+2020,Latin America,Foreign born by region of birth (%),74.2
+2020,Northern America,Foreign born by region of birth (%),1.2

@@ -15,12 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Crime Type",
+            "name": "Type",
             "type": "string",
             "constraints": {
               "enum": [
-                "Intimate Partner - Aggravated Assault",
-                "Intimate Partner - Simple Assault",
+                "Aggravated Assault",
+                "Simple Assault",
                 ""
               ]
             }

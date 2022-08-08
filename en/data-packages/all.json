@@ -4642,16 +4642,16 @@
       "schema": {
         "fields": [
           {
-            "name": "Crime Type",
+            "name": "Type",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Intimate Partner - Aggravated Assault",
-                "Intimate Partner - Simple Assault"
+                "Aggravated Assault",
+                "Simple Assault"
               ]
             },
-            "title": "Crime Type"
+            "title": "Type"
           },
           {
             "name": "Value",

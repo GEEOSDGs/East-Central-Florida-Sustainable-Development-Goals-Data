@@ -5276,19 +5276,34 @@
             "type": "integer"
           },
           {
-            "name": "Group",
+            "name": "World Region of Origin",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Europe",
+                "Asia",
+                "Africa",
+                "Oceania",
+                "Latin America",
+                "Northern America",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent foreign born",
+                "Foreign born by region of birth (%)",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },

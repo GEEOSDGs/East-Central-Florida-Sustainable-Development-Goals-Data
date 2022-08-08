@@ -16,20 +16,36 @@
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "World Region of Origin",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Europe",
+                "Asia",
+                "Africa",
+                "Oceania",
+                "Latin America",
+                "Northern America",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "World Region of Origin"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent foreign born",
+                "Foreign born by region of birth (%)",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

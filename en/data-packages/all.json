@@ -5732,21 +5732,37 @@
       "schema": {
         "fields": [
           {
-            "name": "Group",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "A",
-                "B"
+                "Foreign born by region of birth (%)",
+                "Percent foreign born"
               ]
             },
-            "title": "Group"
+            "title": "Units"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
+          },
+          {
+            "name": "World Region of Origin",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Africa",
+                "Asia",
+                "Europe",
+                "Latin America",
+                "Northern America",
+                "Oceania"
+              ]
+            },
+            "title": "World Region of Origin"
           },
           {
             "name": "Year",

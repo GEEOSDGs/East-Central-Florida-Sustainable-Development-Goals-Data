@@ -6864,32 +6864,31 @@
             "type": "integer"
           },
           {
-            "name": "Gender",
+            "name": "Rate",
             "type": "string",
             "constraints": {
               "enum": [
-                "Male",
-                "Female",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Race/ Ethnicity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Hispanic or Latino",
-                "Asian or Pacific Islander",
-                "Black or African American",
-                "White",
+                "7.4",
+                "8.2",
+                "7.6",
+                "7.7",
+                "8.5",
+                "7.1",
+                "9.1",
+                "6.1",
+                "6.9",
+                "7.5",
+                "5.2",
+                "6.4",
+                "7.2",
+                "5.8",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },

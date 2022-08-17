@@ -11,39 +11,71 @@
       "schema": {
         "fields": [
           {
-            "name": "Race/ Ethnicity",
+            "name": " Rate",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "African American",
-                "Asian",
-                "Hispanic",
-                "White"
+                "0.0",
+                "12.0",
+                "12.1",
+                "13.2",
+                "17.8",
+                "19.1",
+                "19.5",
+                "19.6",
+                "23.6",
+                "24.7",
+                "25.3",
+                "26.0",
+                "28.1",
+                "30.1",
+                "5.9",
+                "6.0",
+                "6.4",
+                "6.7"
               ]
             },
-            "title": "Race/ Ethnicity"
+            "title": " Rate"
           },
           {
-            "name": "Units",
+            "name": "Denom",
             "type": "string",
             "constraints": {
               "enum": [
                 "",
-                "Maternal Mortality Rate",
-                "Total maternal deaths"
+                "14144",
+                "14242",
+                "15186",
+                "15327",
+                "15392",
+                "15393",
+                "15703",
+                "15729",
+                "15829",
+                "16221",
+                "16556",
+                "16568",
+                "16621",
+                "16649",
+                "16718",
+                "16858",
+                "16887",
+                "16914",
+                "16966",
+                "19917"
               ]
             },
-            "title": "Units"
+            "title": "Denom"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           }
         ]

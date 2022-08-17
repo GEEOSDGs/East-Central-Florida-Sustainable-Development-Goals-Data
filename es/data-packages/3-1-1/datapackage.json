@@ -16,7 +16,7 @@
             "title": "Year"
           },
           {
-            "name": " Rate",
+            "name": "Rate",
             "type": "string",
             "constraints": {
               "enum": [
@@ -41,7 +41,7 @@
                 ""
               ]
             },
-            "title": " Rate"
+            "title": "Rate"
           },
           {
             "name": "Denom",

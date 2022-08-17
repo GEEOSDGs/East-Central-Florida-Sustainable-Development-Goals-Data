@@ -986,7 +986,7 @@
             "type": "integer"
           },
           {
-            "name": " Rate",
+            "name": "Rate",
             "type": "string",
             "constraints": {
               "enum": [

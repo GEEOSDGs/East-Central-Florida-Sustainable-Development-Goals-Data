@@ -1,41 +1,21 @@
-Year,Race/ Ethnicity,Units,Value
-2004-2013,,Total maternal deaths,241
-2004-2013,White,Total maternal deaths,39
-2004-2013,Hispanic,Total maternal deaths,115
-2004-2013,African American,Total maternal deaths,64
-2004-2013,Asian,Total maternal deaths,23
-2004-2013,,Maternal Mortality Rate,17.5
-2004-2013,White,Maternal Mortality Rate,16.1
-2004-2013,Hispanic,Maternal Mortality Rate,13.2
-2004-2013,African American,Maternal Mortality Rate,61.3
-2004-2013,Asian,Maternal Mortality Rate,13.9
-2005-2014,,Total maternal deaths,237
-2005-2014,White,Total maternal deaths,37
-2005-2014,Hispanic,Total maternal deaths,113
-2005-2014,African American,Total maternal deaths,65
-2005-2014,Asian,Total maternal deaths,22
-2005-2014,,Maternal Mortality Rate,17.4
-2005-2014,White,Maternal Mortality Rate,15.5
-2005-2014,Hispanic,Maternal Mortality Rate,13.4
-2005-2014,African American,Maternal Mortality Rate,63.5
-2005-2014,Asian,Maternal Mortality Rate,12.8
-2006-2015,,Total maternal deaths,232
-2006-2015,White,Total maternal deaths,34
-2006-2015,Hispanic,Total maternal deaths,108
-2006-2015,African American,Total maternal deaths,65
-2006-2015,Asian,Total maternal deaths,25
-2006-2015,,Maternal Mortality Rate,17.4
-2006-2015,White,Maternal Mortality Rate,14.4
-2006-2015,Hispanic,Maternal Mortality Rate,13.2
-2006-2015,African American,Maternal Mortality Rate,65.1
-2006-2015,Asian,Maternal Mortality Rate,14.3
-2007-2016,,Total maternal deaths,225
-2007-2016,White,Total maternal deaths,29
-2007-2016,Hispanic,Total maternal deaths,109
-2007-2016,African American,Total maternal deaths,64
-2007-2016,Asian,Total maternal deaths,23
-2007-2016,,Maternal Mortality Rate,17.3
-2007-2016,White,Maternal Mortality Rate,12.4
-2007-2016,Hispanic,Maternal Mortality Rate,13.8
-2007-2016,African American,Maternal Mortality Rate,65.8
-2007-2016,Asian,Maternal Mortality Rate,12.8
+﻿Year,Value, Rate,Denom
+2001,4,28.1,14242
+2002,0,0.0,14144
+2003,1,6.7,19917
+2004,3,19.6,15327
+2005,2,12.1,16556
+2006,4,23.6,16966
+2007,3,17.8,16858
+2008,1,6.0,16568
+2009,4,26.0,15393
+2010,2,13.2,15186
+2011,3,19.5,15392
+2012,3,19.1,15729
+2013,4,25.3,15829
+2014,4,24.7,16221
+2015,2,12.0,16718
+2016,2,12.0,16649
+2017,1,5.9,16887
+2018,0,0.0,16914
+2019,5,30.1,16621
+2020,1,6.4,15703

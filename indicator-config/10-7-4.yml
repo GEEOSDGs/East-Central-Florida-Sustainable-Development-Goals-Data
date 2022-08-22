@@ -17,16 +17,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.10-7-4-title
+graph_title: Percent foreign born
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.10-7-4-title
+indicator_name: Percent of Population that is foreign born
 indicator_number: '10.7.4'
-national_geographical_coverage: ''
+national_geographical_coverage: 'City of Orlando'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: inprogress
 sort: ''
 standalone: false
 tags: []

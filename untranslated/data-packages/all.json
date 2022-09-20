@@ -1814,7 +1814,7 @@
           }
         ]
       },
-      "title": "Gini coefficient value"
+      "title": "global_indicators.10-4-2-title"
     },
     {
       "path": "9-b-1/data.csv",
@@ -2679,7 +2679,7 @@
           }
         ]
       },
-      "title": "Percent of Population that is foreign born"
+      "title": "global_indicators.10-7-4-title"
     },
     {
       "path": "16-1-4/data.csv",
